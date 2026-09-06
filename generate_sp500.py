@@ -1,25 +1,35 @@
 import urllib.request
 import json
+import re
 
 def generate_sp500_json():
-    # SEC official ticker to CIK mapping file
-    url = "https://www.sec.gov/files/company_tickers.json"
-    headers = {'User-Agent': 'My10QTracker (db4ads@gmail.com)'}
-
-    req = urllib.request.Request(url, headers=headers)
+    # 1. Fetch current S&P 500 tickers and CIKs directly from Wikipedia's list
+    wiki_url = "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+    req = urllib.request.Request(
+        wiki_url, 
+        headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
+    )
+    
     with urllib.request.urlopen(req) as response:
-        raw_data = json.loads(response.read().decode('utf-8'))
+        html = response.read().decode('utf-8')
+
+    # Parse ticker and CIK pairs from the S&P 500 table HTML
+    # Matches patterns like: edgar/data/0000320193 and ticker symbol links
+    pattern = r'<td><a rel="nofollow" class="external text" href="https://www\.sec\.gov/edgar/browse/\?CIK=(\d+)">([^<]+)</a></td>\s*<td><a href="[^"]+" title="([^"]+)">'
+    matches = re.findall(pattern, html)
 
     sp500_list = []
-    
-    # Process all entries from the SEC master company list
-    for entry in raw_data.values():
-        cik_str = str(entry['cik_str']).zfill(10) # SEC CIKs must be 10 digits zero-padded
-        sp500_list.append({
-            "ticker": entry['ticker'],
-            "cik": cik_str,
-            "name": entry['title']
-        })
+    seen_ciks = set()
+
+    for cik, ticker, name in matches:
+        cik_str = cik.zfill(10) # Format CIK to standard 10-digit zero-padded string
+        if cik_str not in seen_ciks:
+            seen_ciks.add(cik_str)
+            sp500_list.append({
+                "ticker": ticker.replace('.', '-'), # Format BRK.B to BRK-B
+                "cik": cik_str,
+                "name": name
+            })
 
     # Sort alphabetically by ticker
     sp500_list.sort(key=lambda x: x['ticker'])
@@ -27,7 +37,7 @@ def generate_sp500_json():
     with open('sp500.json', 'w') as f:
         json.dump(sp500_list, f, indent=2)
 
-    print(f"Successfully generated sp500.json with {len(sp500_list)} companies.")
+    print(f"Successfully generated sp500.json with {len(sp500_list)} S&P 500 companies.")
 
 if __name__ == "__main__":
     generate_sp500_json()
