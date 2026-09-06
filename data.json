@@ -175,6 +175,13 @@
     "date": "2026-08-06"
   },
   {
+    "title": "10-Q - VITL (Vital Farm Inc)",
+    "ticker": "VITL",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1579733/000119312526336753/vitl-20260628.htm",
+    "date": "2026-08-06"
+  },
+  {
     "title": "10-Q - AMD (Advanced Micro Devices, Inc.)",
     "ticker": "AMD",
     "form": "10-Q",
@@ -207,6 +214,13 @@
     "ticker": "LLY",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000081/lly-20260630.htm",
+    "date": "2026-08-05"
+  },
+  {
+    "title": "10-Q - SOLV (Solventum Corp)",
+    "ticker": "SOLV",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1964738/000196473826000047/solv-20260630.htm",
     "date": "2026-08-05"
   },
   {
@@ -819,6 +833,13 @@
     "date": "2026-05-07"
   },
   {
+    "title": "10-Q - VITL (Vital Farm Inc)",
+    "ticker": "VITL",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1579733/000119312526210356/vitl-20260329.htm",
+    "date": "2026-05-07"
+  },
+  {
     "title": "10-Q - AMD (Advanced Micro Devices, Inc.)",
     "ticker": "AMD",
     "form": "10-Q",
@@ -872,6 +893,13 @@
     "ticker": "PYPL",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000067/pypl-20260331.htm",
+    "date": "2026-05-05"
+  },
+  {
+    "title": "10-Q - SOLV (Solventum Corp)",
+    "ticker": "SOLV",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1964738/000196473826000024/solv-20260331.htm",
     "date": "2026-05-05"
   },
   {
@@ -1407,6 +1435,13 @@
     "date": "2026-02-27"
   },
   {
+    "title": "10-K - SOLV (Solventum Corp)",
+    "ticker": "SOLV",
+    "form": "10-K",
+    "link": "https://www.sec.gov/Archives/edgar/data/1964738/000196473826000007/solv-20251231.htm",
+    "date": "2026-02-27"
+  },
+  {
     "title": "10-K - CI (The Cigna Group)",
     "ticker": "CI",
     "form": "10-K",
@@ -1446,6 +1481,13 @@
     "ticker": "TMO",
     "form": "10-K",
     "link": "https://www.sec.gov/Archives/edgar/data/97745/000009774526000018/tmo-20251231.htm",
+    "date": "2026-02-26"
+  },
+  {
+    "title": "10-K - VITL (Vital Farm Inc)",
+    "ticker": "VITL",
+    "form": "10-K",
+    "link": "https://www.sec.gov/Archives/edgar/data/1579733/000119312526073423/vitl-20251228.htm",
     "date": "2026-02-26"
   },
   {
@@ -2177,6 +2219,13 @@
     "date": "2025-11-06"
   },
   {
+    "title": "10-Q - SOLV (Solventum Corp)",
+    "ticker": "SOLV",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1964738/000196473825000091/solv-20250930.htm",
+    "date": "2025-11-06"
+  },
+  {
     "title": "10-K - V (Visa Inc.)",
     "ticker": "V",
     "form": "10-K",
@@ -2251,6 +2300,13 @@
     "ticker": "PFE",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/78003/000007800325000150/pfe-20250928.htm",
+    "date": "2025-11-04"
+  },
+  {
+    "title": "10-Q - VITL (Vital Farm Inc)",
+    "ticker": "VITL",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1579733/000119312525263590/vitl-20250928.htm",
     "date": "2025-11-04"
   },
   {
@@ -2779,6 +2835,13 @@
     "date": "2025-08-08"
   },
   {
+    "title": "10-Q - SOLV (Solventum Corp)",
+    "ticker": "SOLV",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1964738/000196473825000064/solv-20250630.htm",
+    "date": "2025-08-08"
+  },
+  {
     "title": "10-Q - AIG (American International Group, Inc.)",
     "ticker": "AIG",
     "form": "10-Q",
@@ -2832,6 +2895,13 @@
     "ticker": "TJX",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/109177/000162828025038659/spb-20250629.htm",
+    "date": "2025-08-07"
+  },
+  {
+    "title": "10-Q - VITL (Vital Farm Inc)",
+    "ticker": "VITL",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1579733/000095017025104564/vitl-20250629.htm",
     "date": "2025-08-07"
   },
   {
@@ -3416,6 +3486,13 @@
     "date": "2025-05-09"
   },
   {
+    "title": "10-Q - SOLV (Solventum Corp)",
+    "ticker": "SOLV",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1964738/000196473825000051/solv-20250331.htm",
+    "date": "2025-05-09"
+  },
+  {
     "title": "10-Q - COP (ConocoPhillips)",
     "ticker": "COP",
     "form": "10-Q",
@@ -3434,6 +3511,13 @@
     "ticker": "TJX",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/109177/000010917725000015/spb-20250330.htm",
+    "date": "2025-05-08"
+  },
+  {
+    "title": "10-Q - VITL (Vital Farm Inc)",
+    "ticker": "VITL",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1579733/000095017025066392/vitl-20250330.htm",
     "date": "2025-05-08"
   },
   {
@@ -3997,6 +4081,13 @@
     "date": "2025-02-28"
   },
   {
+    "title": "10-K - SOLV (Solventum Corp)",
+    "ticker": "SOLV",
+    "form": "10-K",
+    "link": "https://www.sec.gov/Archives/edgar/data/1964738/000196473825000019/solv-20241231.htm",
+    "date": "2025-02-28"
+  },
+  {
     "title": "10-K - BK (Bank of New York Mellon Corp)",
     "ticker": "BK",
     "form": "10-K",
@@ -4057,6 +4148,13 @@
     "ticker": "UNH",
     "form": "10-K",
     "link": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000063/unh-20241231.htm",
+    "date": "2025-02-27"
+  },
+  {
+    "title": "10-K - VITL (Vital Farm Inc)",
+    "ticker": "VITL",
+    "form": "10-K",
+    "link": "https://www.sec.gov/Archives/edgar/data/1579733/000095017025028365/vitl-20241229.htm",
     "date": "2025-02-27"
   },
   {
@@ -4711,6 +4809,13 @@
     "date": "2024-11-08"
   },
   {
+    "title": "10-Q - SOLV (Solventum Corp)",
+    "ticker": "SOLV",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1964738/000196473824000044/solv-20240930.htm",
+    "date": "2024-11-08"
+  },
+  {
     "title": "10-Q - AIG (American International Group, Inc.)",
     "ticker": "AIG",
     "form": "10-Q",
@@ -4736,6 +4841,13 @@
     "ticker": "MCD",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/63908/000006390824000156/mcd-20240930.htm",
+    "date": "2024-11-07"
+  },
+  {
+    "title": "10-Q - VITL (Vital Farm Inc)",
+    "ticker": "VITL",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1579733/000095017024122803/vitl-20240929.htm",
     "date": "2024-11-07"
   },
   {
@@ -5285,6 +5397,13 @@
     "date": "2024-08-22"
   },
   {
+    "title": "10-Q - SOLV (Solventum Corp)",
+    "ticker": "SOLV",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1964738/000196473824000020/solv-20240630.htm",
+    "date": "2024-08-09"
+  },
+  {
     "title": "10-Q - UNH (UnitedHealth Group Inc.)",
     "ticker": "UNH",
     "form": "10-Q",
@@ -5324,6 +5443,13 @@
     "ticker": "TJX",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/109177/000010917724000039/spb-20240630.htm",
+    "date": "2024-08-08"
+  },
+  {
+    "title": "10-Q - VITL (Vital Farm Inc)",
+    "ticker": "VITL",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1579733/000095017024093329/vitl-20240630.htm",
     "date": "2024-08-08"
   },
   {
@@ -5922,6 +6048,13 @@
     "date": "2024-05-21"
   },
   {
+    "title": "10-Q - SOLV (Solventum Corp)",
+    "ticker": "SOLV",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1964738/000196473824000013/solv-20240331.htm",
+    "date": "2024-05-10"
+  },
+  {
     "title": "10-Q - SCHW (Charles Schwab Corp)",
     "ticker": "SCHW",
     "form": "10-Q",
@@ -5940,6 +6073,13 @@
     "ticker": "UNH",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/731766/000073176624000155/unh-20240331.htm",
+    "date": "2024-05-09"
+  },
+  {
+    "title": "10-Q - VITL (Vital Farm Inc)",
+    "ticker": "VITL",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1579733/000095017024056285/vitl-20240331.htm",
     "date": "2024-05-09"
   },
   {
@@ -6501,6 +6641,13 @@
     "form": "10-K",
     "link": "https://www.sec.gov/Archives/edgar/data/1372612/000095017024029241/box-20240131.htm",
     "date": "2024-03-11"
+  },
+  {
+    "title": "10-K - VITL (Vital Farm Inc)",
+    "ticker": "VITL",
+    "form": "10-K",
+    "link": "https://www.sec.gov/Archives/edgar/data/1579733/000095017024027602/vitl-20231231.htm",
+    "date": "2024-03-07"
   },
   {
     "title": "10-K - CRM (Salesforce, Inc.)",
@@ -7375,6 +7522,13 @@
     "ticker": "SPGI",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/64040/000006404023000193/spgi-20230930.htm",
+    "date": "2023-11-02"
+  },
+  {
+    "title": "10-Q - VITL (Vital Farm Inc)",
+    "ticker": "VITL",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1579733/000095017023057826/vitl-20230924.htm",
     "date": "2023-11-02"
   },
   {
