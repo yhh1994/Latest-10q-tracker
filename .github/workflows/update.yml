@@ -17,24 +17,24 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-      
+
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.10'
-          
-      - name: Fetch Latest 10-Qs
+
+      - name: Generate S&P 500 Master List
+        run: python generate_sp500.py
+
+      - name: Fetch Historical 10-Qs
         run: python fetch.py
         
       - name: Commit and Push Changes
         run: |
-          # Set up git to commit as a bot
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          
-          # Add the newly created data.json file
-          git add data.json
-          
-          # If there are changes, commit and push them; otherwise, do nothing and exit successfully
-          git commit -m "Auto-update latest 10-Q data" || exit 0
+          git add sp500.json data.json
+          git commit -m "Auto-update S&P 500 master list and 10-Q data" || exit 0
           git push
+
+    
