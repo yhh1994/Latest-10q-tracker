@@ -11,6 +11,7 @@
             --text-main: #1c1c1e;
             --text-muted: #8e8e93;
             --accent: #007aff;
+            --border-color: #e5e5ea;
         }
         body { 
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
@@ -20,10 +21,28 @@
             margin: 0 auto; 
             padding: 2rem 1rem; 
         }
+        .header {
+            margin-bottom: 1.5rem;
+        }
         h1 {
             font-size: 1.75rem;
-            margin-bottom: 1.5rem;
-            padding-left: 0.5rem;
+            margin-bottom: 1rem;
+            padding-left: 0.25rem;
+        }
+        .search-box {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            font-size: 1rem;
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            box-sizing: border-box;
+            background-color: var(--card-bg);
+            outline: none;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            -webkit-appearance: none;
+        }
+        .search-box:focus {
+            border-color: var(--accent);
         }
         .filings-list {
             background-color: var(--card-bg);
@@ -33,7 +52,7 @@
         }
         .filing { 
             padding: 1rem 1.5rem;
-            border-bottom: 1px solid #e5e5ea; 
+            border-bottom: 1px solid var(--border-color); 
         }
         .filing:last-child {
             border-bottom: none;
@@ -62,40 +81,68 @@
     </style>
 </head>
 <body>
-    <h1>Latest 10-Q Filings</h1>
+    <div class="header">
+        <h1>Latest 10-Q Filings</h1>
+        <input 
+            type="text" 
+            id="search-input" 
+            class="search-box" 
+            placeholder="Search by company name or ticker..." 
+            oninput="filterFilings()"
+        />
+    </div>
+
     <div class="filings-list" id="filings-container">
         <div class="status">Loading filings...</div>
     </div>
 
     <script>
-        // Fetch the generated JSON file
+        let allFilings = [];
+
+        // Fetch data from data.json
         fetch('data.json')
             .then(response => {
                 if (!response.ok) {
-                    throw new Error('Data file not found. The GitHub Action may still be running.');
+                    throw new Error('Data file not found.');
                 }
                 return response.json();
             })
             .then(data => {
-                const container = document.getElementById('filings-container');
-                
-                if (data.length === 0) {
-                    container.innerHTML = '<div class="status">No filings found.</div>';
-                    return;
-                }
-
-                // Create the HTML for each filing
-                container.innerHTML = data.map(f => `
-                    <div class="filing">
-                        <a href="${f.link}" target="_blank">${f.title}</a>
-                        <p>Filed: ${new Date(f.date).toLocaleString()}</p>
-                    </div>
-                `).join('');
+                allFilings = data;
+                renderFilings(allFilings);
             })
             .catch(error => {
                 document.getElementById('filings-container').innerHTML = 
                     `<div class="status">⚠️ ${error.message}</div>`;
             });
+
+        // Render filings array to HTML
+        function renderFilings(filings) {
+            const container = document.getElementById('filings-container');
+            
+            if (filings.length === 0) {
+                container.innerHTML = '<div class="status">No matching filings found.</div>';
+                return;
+            }
+
+            container.innerHTML = filings.map(f => `
+                <div class="filing">
+                    <a href="${f.link}" target="_blank">${f.title}</a>
+                    <p>Filed: ${new Date(f.date).toLocaleString()}</p>
+                </div>
+            `).join('');
+        }
+
+        // Live filter function triggered on typing
+        function filterFilings() {
+            const query = document.getElementById('search-input').value.toLowerCase().trim();
+            
+            const filtered = allFilings.filter(f => 
+                f.title.toLowerCase().includes(query)
+            );
+            
+            renderFilings(filtered);
+        }
     </script>
 </body>
 </html>
