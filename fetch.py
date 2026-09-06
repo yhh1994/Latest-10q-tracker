@@ -1,49 +1,78 @@
 import urllib.request
-import xml.etree.ElementTree as ET
 import json
+import time
+from datetime import datetime, timedelta
 
-def fetch_latest_10qs():
-    # The SEC RSS feed for the 50 most recent 10-Q filings
-    url = 'https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=10-Q&count=50&output=atom'
+def fetch_sp500_historical_10qs():
+    # Load S&P 500 list
+    try:
+        with open('sp500.json', 'r') as f:
+            sp500_companies = json.load(f)
+    except FileNotFoundError:
+        print("sp500.json not found. Please create it first.")
+        return
+
+    # Calculate date threshold (3 years ago from today)
+    three_years_ago = (datetime.now() - timedelta(days=3*365)).strftime('%Y-%m-%d')
     
-    # IMPORTANT: Replace the email address below with your actual email.
-    # The SEC will block your request if you do not provide a valid User-Agent.
     headers = {
-        'User-Agent': 'My10QTracker (db4ads@gmail.com)'
+        'User-Agent': 'My10QTracker (your.real.email@example.com)'  # Keep your email updated here
     }
 
-    try:
-        # Request the data from the SEC
-        req = urllib.request.Request(url, headers=headers)
-        with urllib.request.urlopen(req) as response:
-            content = response.read()
+    all_filings = []
 
-        # Parse the XML response
-        root = ET.fromstring(content)
-        ns = {'atom': 'http://www.w3.org/2005/Atom'}
-
-        filings = []
+    for comp in sp500_companies:
+        cik = comp['cik']
+        ticker = comp['ticker']
+        company_name = comp['name']
         
-        # Loop through each filing entry in the feed
-        for entry in root.findall('atom:entry', ns):
-            title = entry.find('atom:title', ns).text
-            link = entry.find('atom:link', ns).attrib['href']
-            updated = entry.find('atom:updated', ns).text
+        url = f'https://data.sec.gov/submissions/CIK{cik}.json'
+        
+        try:
+            req = urllib.request.Request(url, headers=headers)
+            with urllib.request.urlopen(req) as response:
+                data = json.loads(response.read().decode('utf-8'))
             
-            filings.append({
-                'title': title,
-                'link': link,
-                'date': updated
-            })
+            # Extract recent filings array from SEC payload
+            recent = data.get('filings', {}).get('recent', {})
+            forms = recent.get('form', [])
+            filing_dates = recent.get('filingDate', [])
+            accession_numbers = recent.get('accessionNumber', [])
+            primary_documents = recent.get('primaryDocument', [])
 
-        # Save the extracted data to data.json
-        with open('data.json', 'w') as f:
-            json.dump(filings, f, indent=2)
-            
-        print(f"Successfully saved {len(filings)} filings to data.json")
+            for i in range(len(forms)):
+                form_type = forms[i]
+                f_date = filing_dates[i]
 
-    except Exception as e:
-        print(f"An error occurred: {e}")
+                # Filter for 10-Q forms filed within the last 3 years
+                if form_type == '10-Q' and f_date >= three_years_ago:
+                    acc_no_clean = accession_numbers[i].replace('-', '')
+                    doc = primary_documents[i]
+                    
+                    # Construct direct SEC EDGAR URL
+                    link = f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc_no_clean}/{doc}"
+                    
+                    all_filings.append({
+                        'title': f"10-Q - {ticker} ({company_name})",
+                        'ticker': ticker,
+                        'link': link,
+                        'date': f_date
+                    })
+
+            # SEC rate limits require maximum 10 requests per second
+            time.sleep(0.12)
+
+        except Exception as e:
+            print(f"Error fetching CIK {cik} ({ticker}): {e}")
+
+    # Sort all filings descending by filing date
+    all_filings.sort(key=lambda x: x['date'], reverse=True)
+
+    # Save to data.json
+    with open('data.json', 'w') as f:
+        json.dump(all_filings, f, indent=2)
+
+    print(f"Successfully saved {len(all_filings)} filings from the last 3 years.")
 
 if __name__ == "__main__":
-    fetch_latest_10qs()
+    fetch_sp500_historical_10qs()
