@@ -1,202 +1,494 @@
 [
   {
-    "title": "10-Q - ChargePoint Holdings, Inc. (0001777393) (Filer)",
-    "link": "https://www.sec.gov/Archives/edgar/data/1777393/000162828026060770/0001628280-26-060770-index.htm",
-    "date": "2026-09-04T17:27:57-04:00"
+    "title": "10-Q - NVDA (NVIDIA Corp)",
+    "ticker": "NVDA",
+    "link": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+    "date": "2026-08-26"
   },
   {
-    "title": "10-Q - Cactus Acquisition Corp. 1 Ltd (0001865861) (Filer)",
-    "link": "https://www.sec.gov/Archives/edgar/data/1865861/000149315226041603/0001493152-26-041603-index.htm",
-    "date": "2026-09-04T17:25:26-04:00"
+    "title": "10-Q - BRK-B (Berkshire Hathaway Inc)",
+    "ticker": "BRK-B",
+    "link": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526341032/brka-20260630.htm",
+    "date": "2026-08-10"
   },
   {
-    "title": "10-Q - OOMA INC (0001327688) (Filer)",
-    "link": "https://www.sec.gov/Archives/edgar/data/1327688/000132768826000020/0001327688-26-000020-index.htm",
-    "date": "2026-09-04T17:19:51-04:00"
+    "title": "10-Q - JPM (JPMorgan Chase & Co)",
+    "ticker": "JPM",
+    "link": "https://www.sec.gov/Archives/edgar/data/19617/000162828026054343/jpm-20260630.htm",
+    "date": "2026-08-06"
   },
   {
-    "title": "10-Q - ABERCROMBIE & FITCH CO /DE/ (0001018840) (Filer)",
-    "link": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000047/0001018840-26-000047-index.htm",
-    "date": "2026-09-04T16:54:17-04:00"
+    "title": "10-Q - AAPL (Apple Inc.)",
+    "ticker": "AAPL",
+    "link": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+    "date": "2026-07-31"
   },
   {
-    "title": "10-Q - NutriBand Inc. (0001676047) (Filer)",
-    "link": "https://www.sec.gov/Archives/edgar/data/1676047/000121390026097701/0001213900-26-097701-index.htm",
-    "date": "2026-09-04T16:31:00-04:00"
+    "title": "10-Q - AMZN (Amazon Com Inc)",
+    "ticker": "AMZN",
+    "link": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm",
+    "date": "2026-07-31"
   },
   {
-    "title": "10-Q - Snowflake Inc. (0001640147) (Filer)",
-    "link": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000037/0001640147-26-000037-index.htm",
-    "date": "2026-09-04T16:06:23-04:00"
+    "title": "10-Q - META (Meta Platforms, Inc.)",
+    "ticker": "META",
+    "link": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm",
+    "date": "2026-07-30"
   },
   {
-    "title": "10-Q - DILLARD'S, INC. (0000028917) (Filer)",
-    "link": "https://www.sec.gov/Archives/edgar/data/28917/000002891726000027/0000028917-26-000027-index.htm",
-    "date": "2026-09-04T16:06:10-04:00"
+    "title": "10-Q - GOOGL (Alphabet Inc.)",
+    "ticker": "GOOGL",
+    "link": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm",
+    "date": "2026-07-23"
   },
   {
-    "title": "10-Q - DOCUSIGN, INC. (0001261333) (Filer)",
-    "link": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000099/0001261333-26-000099-index.htm",
-    "date": "2026-09-04T16:06:06-04:00"
+    "title": "10-Q - TSLA (Tesla, Inc.)",
+    "ticker": "TSLA",
+    "link": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026049270/tsla-20260630.htm",
+    "date": "2026-07-23"
   },
   {
-    "title": "10-Q/A - General Fusion Group Ltd. (0002074850) (Filer)",
-    "link": "https://www.sec.gov/Archives/edgar/data/2074850/000110465926105499/0001104659-26-105499-index.htm",
-    "date": "2026-09-04T16:05:55-04:00"
+    "title": "10-Q - JNJ (Johnson & Johnson)",
+    "ticker": "JNJ",
+    "link": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000153/jnj-20260628.htm",
+    "date": "2026-07-23"
   },
   {
-    "title": "10-Q - Petco Health & Wellness Company, Inc. (0001826470) (Filer)",
-    "link": "https://www.sec.gov/Archives/edgar/data/1826470/000119312526383639/0001193125-26-383639-index.htm",
-    "date": "2026-09-04T16:05:38-04:00"
+    "title": "10-Q - NVDA (NVIDIA Corp)",
+    "ticker": "NVDA",
+    "link": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm",
+    "date": "2026-05-20"
   },
   {
-    "title": "10-Q - Everpure, Inc. (0001474432) (Filer)",
-    "link": "https://www.sec.gov/Archives/edgar/data/1474432/000147443226000088/0001474432-26-000088-index.htm",
-    "date": "2026-09-04T16:03:31-04:00"
+    "title": "10-Q - BRK-B (Berkshire Hathaway Inc)",
+    "ticker": "BRK-B",
+    "link": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526202243/brka-20260331.htm",
+    "date": "2026-05-04"
   },
   {
-    "title": "10-Q - Quanex Building Products CORP (0001423221) (Filer)",
-    "link": "https://www.sec.gov/Archives/edgar/data/1423221/000142322126000048/0001423221-26-000048-index.htm",
-    "date": "2026-09-04T16:03:22-04:00"
+    "title": "10-Q - AAPL (Apple Inc.)",
+    "ticker": "AAPL",
+    "link": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000013/aapl-20260328.htm",
+    "date": "2026-05-01"
   },
   {
-    "title": "10-Q - Private Bancorp of America, Inc. (0001705284) (Filer)",
-    "link": "https://www.sec.gov/Archives/edgar/data/1705284/000170528426000008/0001705284-26-000008-index.htm",
-    "date": "2026-09-04T16:01:03-04:00"
+    "title": "10-Q - JPM (JPMorgan Chase & Co)",
+    "ticker": "JPM",
+    "link": "https://www.sec.gov/Archives/edgar/data/19617/000162828026029344/jpm-20260331.htm",
+    "date": "2026-05-01"
   },
   {
-    "title": "10-Q - BEST BUY CO INC (0000764478) (Filer)",
-    "link": "https://www.sec.gov/Archives/edgar/data/764478/000076447826000042/0000764478-26-000042-index.htm",
-    "date": "2026-09-04T16:00:55-04:00"
+    "title": "10-Q - AMZN (Amazon Com Inc)",
+    "ticker": "AMZN",
+    "link": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000014/amzn-20260331.htm",
+    "date": "2026-04-30"
   },
   {
-    "title": "10-Q - HURCO COMPANIES INC (0000315374) (Filer)",
-    "link": "https://www.sec.gov/Archives/edgar/data/315374/000110465926105453/0001104659-26-105453-index.htm",
-    "date": "2026-09-04T14:38:38-04:00"
+    "title": "10-Q - GOOGL (Alphabet Inc.)",
+    "ticker": "GOOGL",
+    "link": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000048/goog-20260331.htm",
+    "date": "2026-04-30"
   },
   {
-    "title": "10-Q - AMBARELLA INC (0001280263) (Filer)",
-    "link": "https://www.sec.gov/Archives/edgar/data/1280263/000119312526383365/0001193125-26-383365-index.htm",
-    "date": "2026-09-04T13:45:41-04:00"
+    "title": "10-Q - META (Meta Platforms, Inc.)",
+    "ticker": "META",
+    "link": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026028526/meta-20260331.htm",
+    "date": "2026-04-30"
   },
   {
-    "title": "10-Q - VIRCO MFG CORPORATION (0000751365) (Filer)",
-    "link": "https://www.sec.gov/Archives/edgar/data/751365/000162828026060657/0001628280-26-060657-index.htm",
-    "date": "2026-09-04T13:06:59-04:00"
+    "title": "10-Q - MSFT (Microsoft Corp)",
+    "ticker": "MSFT",
+    "link": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/msft-20260331.htm",
+    "date": "2026-04-29"
   },
   {
-    "title": "10-Q - JOHN WILEY & SONS, INC. (0000107140) (Filer)",
-    "link": "https://www.sec.gov/Archives/edgar/data/107140/000162828026060632/0001628280-26-060632-index.htm",
-    "date": "2026-09-04T10:34:44-04:00"
+    "title": "10-Q - TSLA (Tesla, Inc.)",
+    "ticker": "TSLA",
+    "link": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026026673/tsla-20260331.htm",
+    "date": "2026-04-23"
   },
   {
-    "title": "10-Q - DULUTH HOLDINGS INC. (0001649744) (Filer)",
-    "link": "https://www.sec.gov/Archives/edgar/data/1649744/000119312526382953/0001193125-26-382953-index.htm",
-    "date": "2026-09-04T09:42:26-04:00"
+    "title": "10-Q - JNJ (Johnson & Johnson)",
+    "ticker": "JNJ",
+    "link": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000087/jnj-20260329.htm",
+    "date": "2026-04-22"
   },
   {
-    "title": "10-Q - OXFORD INDUSTRIES INC (0000075288) (Filer)",
-    "link": "https://www.sec.gov/Archives/edgar/data/75288/000007528826000084/0000075288-26-000084-index.htm",
-    "date": "2026-09-04T08:46:31-04:00"
+    "title": "10-Q - AAPL (Apple Inc.)",
+    "ticker": "AAPL",
+    "link": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+    "date": "2026-01-30"
   },
   {
-    "title": "10-Q - Victoria's Secret & Co. (0001856437) (Filer)",
-    "link": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000021/0001856437-26-000021-index.htm",
-    "date": "2026-09-04T07:20:17-04:00"
+    "title": "10-Q - MSFT (Microsoft Corp)",
+    "ticker": "MSFT",
+    "link": "https://www.sec.gov/Archives/edgar/data/789019/000119312526027207/msft-20251231.htm",
+    "date": "2026-01-28"
   },
   {
-    "title": "10-Q - DOMO, INC. (0001505952) (Filer)",
-    "link": "https://www.sec.gov/Archives/edgar/data/1505952/000162828026060537/0001628280-26-060537-index.htm",
-    "date": "2026-09-03T17:28:36-04:00"
+    "title": "10-Q - NVDA (NVIDIA Corp)",
+    "ticker": "NVDA",
+    "link": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/nvda-20251026.htm",
+    "date": "2025-11-19"
   },
   {
-    "title": "10-Q - TRIC Global, Inc. (0002124122) (Filer)",
-    "link": "https://www.sec.gov/Archives/edgar/data/2124122/000212412226000017/0002124122-26-000017-index.htm",
-    "date": "2026-09-03T17:21:08-04:00"
+    "title": "10-Q - JPM (JPMorgan Chase & Co)",
+    "ticker": "JPM",
+    "link": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/jpm-20250930.htm",
+    "date": "2025-11-04"
   },
   {
-    "title": "10-Q - Concrete Pumping Holdings, Inc. (0001703956) (Filer)",
-    "link": "https://www.sec.gov/Archives/edgar/data/1703956/000143774926029623/0001437749-26-029623-index.htm",
-    "date": "2026-09-03T17:05:59-04:00"
+    "title": "10-Q - BRK-B (Berkshire Hathaway Inc)",
+    "ticker": "BRK-B",
+    "link": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525261548/brka-20250930.htm",
+    "date": "2025-11-03"
   },
   {
-    "title": "10-Q - Planet Labs PBC (0001836833) (Filer)",
-    "link": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526382016/0001193125-26-382016-index.htm",
-    "date": "2026-09-03T16:52:34-04:00"
+    "title": "10-Q - AMZN (Amazon Com Inc)",
+    "ticker": "AMZN",
+    "link": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000123/amzn-20250930.htm",
+    "date": "2025-10-31"
   },
   {
-    "title": "10-Q - Latigo Biotherapeutics, Inc. (0002056611) (Filer)",
-    "link": "https://www.sec.gov/Archives/edgar/data/2056611/000119312526381969/0001193125-26-381969-index.htm",
-    "date": "2026-09-03T16:32:14-04:00"
+    "title": "10-Q - GOOGL (Alphabet Inc.)",
+    "ticker": "GOOGL",
+    "link": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000091/goog-20250930.htm",
+    "date": "2025-10-30"
   },
   {
-    "title": "10-Q - Market Technology Acquisition Corp (0002133136) (Filer)",
-    "link": "https://www.sec.gov/Archives/edgar/data/2133136/000121390026097207/0001213900-26-097207-index.htm",
-    "date": "2026-09-03T16:20:42-04:00"
+    "title": "10-Q - META (Meta Platforms, Inc.)",
+    "ticker": "META",
+    "link": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+    "date": "2025-10-30"
   },
   {
-    "title": "10-Q - Asana, Inc. (0001477720) (Filer)",
-    "link": "https://www.sec.gov/Archives/edgar/data/1477720/000147772026000060/0001477720-26-000060-index.htm",
-    "date": "2026-09-03T16:18:39-04:00"
+    "title": "10-Q - MSFT (Microsoft Corp)",
+    "ticker": "MSFT",
+    "link": "https://www.sec.gov/Archives/edgar/data/789019/000119312525256321/msft-20250930.htm",
+    "date": "2025-10-29"
   },
   {
-    "title": "10-Q - Medtronic plc (0001613103) (Filer)",
-    "link": "https://www.sec.gov/Archives/edgar/data/1613103/000162828026060473/0001628280-26-060473-index.htm",
-    "date": "2026-09-03T16:18:22-04:00"
+    "title": "10-Q - TSLA (Tesla, Inc.)",
+    "ticker": "TSLA",
+    "link": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+    "date": "2025-10-23"
   },
   {
-    "title": "10-Q - American Outdoor Brands, Inc. (0001808997) (Filer)",
-    "link": "https://www.sec.gov/Archives/edgar/data/1808997/000180899726000046/0001808997-26-000046-index.htm",
-    "date": "2026-09-03T16:15:41-04:00"
+    "title": "10-Q - JNJ (Johnson & Johnson)",
+    "ticker": "JNJ",
+    "link": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000209/jnj-20250928.htm",
+    "date": "2025-10-22"
   },
   {
-    "title": "10-Q - SMITH & WESSON BRANDS, INC. (0001092796) (Filer)",
-    "link": "https://www.sec.gov/Archives/edgar/data/1092796/000119312526381911/0001193125-26-381911-index.htm",
-    "date": "2026-09-03T16:15:33-04:00"
+    "title": "10-Q - NVDA (NVIDIA Corp)",
+    "ticker": "NVDA",
+    "link": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000209/nvda-20250727.htm",
+    "date": "2025-08-27"
   },
   {
-    "title": "10-Q - KOHLS Corp (0000885639) (Filer)",
-    "link": "https://www.sec.gov/Archives/edgar/data/885639/000119312526381893/0001193125-26-381893-index.htm",
-    "date": "2026-09-03T16:10:34-04:00"
+    "title": "10-Q - BRK-B (Berkshire Hathaway Inc)",
+    "ticker": "BRK-B",
+    "link": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025101578/brka-20250630.htm",
+    "date": "2025-08-04"
   },
   {
-    "title": "10-Q - lululemon athletica inc. (0001397187) (Filer)",
-    "link": "https://www.sec.gov/Archives/edgar/data/1397187/000139718726000127/0001397187-26-000127-index.htm",
-    "date": "2026-09-03T16:10:09-04:00"
+    "title": "10-Q - AAPL (Apple Inc.)",
+    "ticker": "AAPL",
+    "link": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+    "date": "2025-08-01"
   },
   {
-    "title": "10-Q - Phreesia, Inc. (0001412408) (Filer)",
-    "link": "https://www.sec.gov/Archives/edgar/data/1412408/000141240826000223/0001412408-26-000223-index.htm",
-    "date": "2026-09-03T16:07:21-04:00"
+    "title": "10-Q - AMZN (Amazon Com Inc)",
+    "ticker": "AMZN",
+    "link": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000086/amzn-20250630.htm",
+    "date": "2025-08-01"
   },
   {
-    "title": "10-Q - Sprinklr, Inc. (0001569345) (Filer)",
-    "link": "https://www.sec.gov/Archives/edgar/data/1569345/000156934526000038/0001569345-26-000038-index.htm",
-    "date": "2026-09-03T16:07:14-04:00"
+    "title": "10-Q - META (Meta Platforms, Inc.)",
+    "ticker": "META",
+    "link": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+    "date": "2025-07-31"
   },
   {
-    "title": "10-Q - TILLY'S, INC. (0001524025) (Filer)",
-    "link": "https://www.sec.gov/Archives/edgar/data/1524025/000162828026060403/0001628280-26-060403-index.htm",
-    "date": "2026-09-03T16:05:49-04:00"
+    "title": "10-Q - GOOGL (Alphabet Inc.)",
+    "ticker": "GOOGL",
+    "link": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000062/goog-20250630.htm",
+    "date": "2025-07-24"
   },
   {
-    "title": "10-Q - LANDS' END, INC. (0000799288) (Filer)",
-    "link": "https://www.sec.gov/Archives/edgar/data/799288/000119312526381873/0001193125-26-381873-index.htm",
-    "date": "2026-09-03T16:05:43-04:00"
+    "title": "10-Q - TSLA (Tesla, Inc.)",
+    "ticker": "TSLA",
+    "link": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+    "date": "2025-07-24"
   },
   {
-    "title": "10-Q - Mama's Creations, Inc. (0001520358) (Filer)",
-    "link": "https://www.sec.gov/Archives/edgar/data/1520358/000162828026060394/0001628280-26-060394-index.htm",
-    "date": "2026-09-03T16:04:48-04:00"
+    "title": "10-Q - JNJ (Johnson & Johnson)",
+    "ticker": "JNJ",
+    "link": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000178/jnj-20250629.htm",
+    "date": "2025-07-24"
   },
   {
-    "title": "10-Q - FIVE BELOW, INC (0001177609) (Filer)",
-    "link": "https://www.sec.gov/Archives/edgar/data/1177609/000117760926000027/0001177609-26-000027-index.htm",
-    "date": "2026-09-03T15:57:49-04:00"
+    "title": "10-Q - NVDA (NVIDIA Corp)",
+    "ticker": "NVDA",
+    "link": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000116/nvda-20250427.htm",
+    "date": "2025-05-28"
   },
   {
-    "title": "10-Q - CIENA CORP (0000936395) (Filer)",
-    "link": "https://www.sec.gov/Archives/edgar/data/936395/000162828026060361/0001628280-26-060361-index.htm",
-    "date": "2026-09-03T15:57:02-04:00"
+    "title": "10-Q - BRK-B (Berkshire Hathaway Inc)",
+    "ticker": "BRK-B",
+    "link": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025063112/brka-20250331.htm",
+    "date": "2025-05-05"
+  },
+  {
+    "title": "10-Q - AAPL (Apple Inc.)",
+    "ticker": "AAPL",
+    "link": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+    "date": "2025-05-02"
+  },
+  {
+    "title": "10-Q - AMZN (Amazon Com Inc)",
+    "ticker": "AMZN",
+    "link": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000036/amzn-20250331.htm",
+    "date": "2025-05-02"
+  },
+  {
+    "title": "10-Q - META (Meta Platforms, Inc.)",
+    "ticker": "META",
+    "link": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+    "date": "2025-05-01"
+  },
+  {
+    "title": "10-Q - MSFT (Microsoft Corp)",
+    "ticker": "MSFT",
+    "link": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061046/msft-20250331.htm",
+    "date": "2025-04-30"
+  },
+  {
+    "title": "10-Q - GOOGL (Alphabet Inc.)",
+    "ticker": "GOOGL",
+    "link": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000043/goog-20250331.htm",
+    "date": "2025-04-25"
+  },
+  {
+    "title": "10-Q - TSLA (Tesla, Inc.)",
+    "ticker": "TSLA",
+    "link": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+    "date": "2025-04-23"
+  },
+  {
+    "title": "10-Q - JNJ (Johnson & Johnson)",
+    "ticker": "JNJ",
+    "link": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000119/jnj-20250330.htm",
+    "date": "2025-04-23"
+  },
+  {
+    "title": "10-Q - AAPL (Apple Inc.)",
+    "ticker": "AAPL",
+    "link": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+    "date": "2025-01-31"
+  },
+  {
+    "title": "10-Q - MSFT (Microsoft Corp)",
+    "ticker": "MSFT",
+    "link": "https://www.sec.gov/Archives/edgar/data/789019/000095017025010491/msft-20241231.htm",
+    "date": "2025-01-29"
+  },
+  {
+    "title": "10-Q - NVDA (NVIDIA Corp)",
+    "ticker": "NVDA",
+    "link": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000316/nvda-20241027.htm",
+    "date": "2024-11-20"
+  },
+  {
+    "title": "10-Q - BRK-B (Berkshire Hathaway Inc)",
+    "ticker": "BRK-B",
+    "link": "https://www.sec.gov/Archives/edgar/data/1067983/000095017024120241/brka-20240930.htm",
+    "date": "2024-11-04"
+  },
+  {
+    "title": "10-Q - AMZN (Amazon Com Inc)",
+    "ticker": "AMZN",
+    "link": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000161/amzn-20240930.htm",
+    "date": "2024-11-01"
+  },
+  {
+    "title": "10-Q - META (Meta Platforms, Inc.)",
+    "ticker": "META",
+    "link": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000081/meta-20240930.htm",
+    "date": "2024-10-31"
+  },
+  {
+    "title": "10-Q - MSFT (Microsoft Corp)",
+    "ticker": "MSFT",
+    "link": "https://www.sec.gov/Archives/edgar/data/789019/000095017024118967/msft-20240930.htm",
+    "date": "2024-10-30"
+  },
+  {
+    "title": "10-Q - GOOGL (Alphabet Inc.)",
+    "ticker": "GOOGL",
+    "link": "https://www.sec.gov/Archives/edgar/data/1652044/000165204424000118/goog-20240930.htm",
+    "date": "2024-10-30"
+  },
+  {
+    "title": "10-Q - TSLA (Tesla, Inc.)",
+    "ticker": "TSLA",
+    "link": "https://www.sec.gov/Archives/edgar/data/1318605/000162828024043486/tsla-20240930.htm",
+    "date": "2024-10-24"
+  },
+  {
+    "title": "10-Q - JNJ (Johnson & Johnson)",
+    "ticker": "JNJ",
+    "link": "https://www.sec.gov/Archives/edgar/data/200406/000020040624000096/jnj-20240929.htm",
+    "date": "2024-10-23"
+  },
+  {
+    "title": "10-Q - NVDA (NVIDIA Corp)",
+    "ticker": "NVDA",
+    "link": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000264/nvda-20240728.htm",
+    "date": "2024-08-28"
+  },
+  {
+    "title": "10-Q - BRK-B (Berkshire Hathaway Inc)",
+    "ticker": "BRK-B",
+    "link": "https://www.sec.gov/Archives/edgar/data/1067983/000095017024090305/brka-20240630.htm",
+    "date": "2024-08-05"
+  },
+  {
+    "title": "10-Q - AAPL (Apple Inc.)",
+    "ticker": "AAPL",
+    "link": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000081/aapl-20240629.htm",
+    "date": "2024-08-02"
+  },
+  {
+    "title": "10-Q - AMZN (Amazon Com Inc)",
+    "ticker": "AMZN",
+    "link": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000130/amzn-20240630.htm",
+    "date": "2024-08-02"
+  },
+  {
+    "title": "10-Q - META (Meta Platforms, Inc.)",
+    "ticker": "META",
+    "link": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000069/meta-20240630.htm",
+    "date": "2024-08-01"
+  },
+  {
+    "title": "10-Q - JNJ (Johnson & Johnson)",
+    "ticker": "JNJ",
+    "link": "https://www.sec.gov/Archives/edgar/data/200406/000020040624000075/jnj-20240630.htm",
+    "date": "2024-07-25"
+  },
+  {
+    "title": "10-Q - GOOGL (Alphabet Inc.)",
+    "ticker": "GOOGL",
+    "link": "https://www.sec.gov/Archives/edgar/data/1652044/000165204424000079/goog-20240630.htm",
+    "date": "2024-07-24"
+  },
+  {
+    "title": "10-Q - TSLA (Tesla, Inc.)",
+    "ticker": "TSLA",
+    "link": "https://www.sec.gov/Archives/edgar/data/1318605/000162828024032662/tsla-20240630.htm",
+    "date": "2024-07-24"
+  },
+  {
+    "title": "10-Q - NVDA (NVIDIA Corp)",
+    "ticker": "NVDA",
+    "link": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000124/nvda-20240428.htm",
+    "date": "2024-05-29"
+  },
+  {
+    "title": "10-Q - BRK-B (Berkshire Hathaway Inc)",
+    "ticker": "BRK-B",
+    "link": "https://www.sec.gov/Archives/edgar/data/1067983/000095017024053185/brka-20240331.htm",
+    "date": "2024-05-06"
+  },
+  {
+    "title": "10-Q - AAPL (Apple Inc.)",
+    "ticker": "AAPL",
+    "link": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000069/aapl-20240330.htm",
+    "date": "2024-05-03"
+  },
+  {
+    "title": "10-Q - AMZN (Amazon Com Inc)",
+    "ticker": "AMZN",
+    "link": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000083/amzn-20240331.htm",
+    "date": "2024-05-01"
+  },
+  {
+    "title": "10-Q - JNJ (Johnson & Johnson)",
+    "ticker": "JNJ",
+    "link": "https://www.sec.gov/Archives/edgar/data/200406/000020040624000049/jnj-20240331.htm",
+    "date": "2024-05-01"
+  },
+  {
+    "title": "10-Q - GOOGL (Alphabet Inc.)",
+    "ticker": "GOOGL",
+    "link": "https://www.sec.gov/Archives/edgar/data/1652044/000165204424000053/goog-20240331.htm",
+    "date": "2024-04-26"
+  },
+  {
+    "title": "10-Q - MSFT (Microsoft Corp)",
+    "ticker": "MSFT",
+    "link": "https://www.sec.gov/Archives/edgar/data/789019/000095017024048288/msft-20240331.htm",
+    "date": "2024-04-25"
+  },
+  {
+    "title": "10-Q - TSLA (Tesla, Inc.)",
+    "ticker": "TSLA",
+    "link": "https://www.sec.gov/Archives/edgar/data/1318605/000162828024017503/tsla-20240331.htm",
+    "date": "2024-04-24"
+  },
+  {
+    "title": "10-Q - AAPL (Apple Inc.)",
+    "ticker": "AAPL",
+    "link": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000006/aapl-20231230.htm",
+    "date": "2024-02-02"
+  },
+  {
+    "title": "10-Q - MSFT (Microsoft Corp)",
+    "ticker": "MSFT",
+    "link": "https://www.sec.gov/Archives/edgar/data/789019/000095017024008814/msft-20231231.htm",
+    "date": "2024-01-30"
+  },
+  {
+    "title": "10-Q - NVDA (NVIDIA Corp)",
+    "ticker": "NVDA",
+    "link": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000227/nvda-20231029.htm",
+    "date": "2023-11-21"
+  },
+  {
+    "title": "10-Q - BRK-B (Berkshire Hathaway Inc)",
+    "ticker": "BRK-B",
+    "link": "https://www.sec.gov/Archives/edgar/data/1067983/000095017023058993/brka-20230930.htm",
+    "date": "2023-11-06"
+  },
+  {
+    "title": "10-Q - AMZN (Amazon Com Inc)",
+    "ticker": "AMZN",
+    "link": "https://www.sec.gov/Archives/edgar/data/1018724/000101872423000018/amzn-20230930.htm",
+    "date": "2023-10-27"
+  },
+  {
+    "title": "10-Q - JNJ (Johnson & Johnson)",
+    "ticker": "JNJ",
+    "link": "https://www.sec.gov/Archives/edgar/data/200406/000020040623000102/jnj-20231001.htm",
+    "date": "2023-10-27"
+  },
+  {
+    "title": "10-Q - GOOGL (Alphabet Inc.)",
+    "ticker": "GOOGL",
+    "link": "https://www.sec.gov/Archives/edgar/data/1652044/000165204423000094/goog-20230930.htm",
+    "date": "2023-10-25"
+  },
+  {
+    "title": "10-Q - MSFT (Microsoft Corp)",
+    "ticker": "MSFT",
+    "link": "https://www.sec.gov/Archives/edgar/data/789019/000095017023054855/msft-20230930.htm",
+    "date": "2023-10-24"
+  },
+  {
+    "title": "10-Q - TSLA (Tesla, Inc.)",
+    "ticker": "TSLA",
+    "link": "https://www.sec.gov/Archives/edgar/data/1318605/000162828023034847/tsla-20230930.htm",
+    "date": "2023-10-23"
   }
 ]
