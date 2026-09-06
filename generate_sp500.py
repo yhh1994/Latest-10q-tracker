@@ -4,7 +4,7 @@ import json
 def generate_sp500_json():
     # SEC official ticker to CIK mapping file
     url = "https://www.sec.gov/files/company_tickers.json"
-    headers = {'User-Agent': 'My10QTracker (your.real.email@example.com)'}
+    headers = {'User-Agent': 'My10QTracker (db4ads@gmail.com)'}
 
     req = urllib.request.Request(url, headers=headers)
     with urllib.request.urlopen(req) as response:
