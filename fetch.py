@@ -3,20 +3,21 @@ import json
 import time
 from datetime import datetime, timedelta
 
-def fetch_sp500_historical_10qs():
+def fetch_sp500_historical_filings():
     # Load S&P 500 list
     try:
         with open('sp500.json', 'r') as f:
             sp500_companies = json.load(f)
     except FileNotFoundError:
-        print("sp500.json not found. Please create it first.")
+        print("sp500.json not found. Please run generate_sp500.py first.")
         return
 
     # Calculate date threshold (3 years ago from today)
     three_years_ago = (datetime.now() - timedelta(days=3*365)).strftime('%Y-%m-%d')
     
+    # Replace with your actual email address
     headers = {
-        'User-Agent': 'My10QTracker (db4ads@gmail.com)'  # Keep your email updated here
+        'User-Agent': 'MySECFilingsTracker (db4ads@gmail.com)'
     }
 
     all_filings = []
@@ -44,8 +45,8 @@ def fetch_sp500_historical_10qs():
                 form_type = forms[i]
                 f_date = filing_dates[i]
 
-                # Filter for 10-Q forms filed within the last 3 years
-                if form_type == '10-Q' and f_date >= three_years_ago:
+                # Filter for BOTH 10-Q and 10-K forms filed within the last 3 years
+                if form_type in ['10-Q', '10-K'] and f_date >= three_years_ago:
                     acc_no_clean = accession_numbers[i].replace('-', '')
                     doc = primary_documents[i]
                     
@@ -53,13 +54,14 @@ def fetch_sp500_historical_10qs():
                     link = f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc_no_clean}/{doc}"
                     
                     all_filings.append({
-                        'title': f"10-Q - {ticker} ({company_name})",
+                        'title': f"{form_type} - {ticker} ({company_name})",
                         'ticker': ticker,
+                        'form': form_type,
                         'link': link,
                         'date': f_date
                     })
 
-            # SEC rate limits require maximum 10 requests per second
+            # SEC rate limit requirement (max 10 requests per second)
             time.sleep(0.12)
 
         except Exception as e:
@@ -72,7 +74,7 @@ def fetch_sp500_historical_10qs():
     with open('data.json', 'w') as f:
         json.dump(all_filings, f, indent=2)
 
-    print(f"Successfully saved {len(all_filings)} filings from the last 3 years.")
+    print(f"Successfully saved {len(all_filings)} 10-Q and 10-K filings from the last 3 years.")
 
 if __name__ == "__main__":
-    fetch_sp500_historical_10qs()
+    fetch_sp500_historical_filings()
