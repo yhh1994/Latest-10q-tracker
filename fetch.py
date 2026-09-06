@@ -16,7 +16,7 @@ def fetch_sp500_historical_10qs():
     three_years_ago = (datetime.now() - timedelta(days=3*365)).strftime('%Y-%m-%d')
     
     headers = {
-        'User-Agent': 'My10QTracker (your.real.email@example.com)'  # Keep your email updated here
+        'User-Agent': 'My10QTracker (db4ads@gmail.com)'  # Keep your email updated here
     }
 
     all_filings = []
