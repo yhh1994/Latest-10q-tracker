@@ -7859,12 +7859,5 @@
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/1341439/000095017023047713/orcl-20230831.htm",
     "date": "2023-09-12"
-  },
-  {
-    "title": "10-K - CSCO (Cisco Systems, Inc.)",
-    "ticker": "CSCO",
-    "form": "10-K",
-    "link": "https://www.sec.gov/Archives/edgar/data/858877/000085887723000023/csco-20230729.htm",
-    "date": "2023-09-07"
   }
 ]
