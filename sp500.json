@@ -51,6 +51,7 @@
   { "ticker": "JNJ", "cik": "0000200406", "name": "Johnson & Johnson" },
   { "ticker": "JPM", "cik": "0000019617", "name": "JPMorgan Chase & Co" },
   { "ticker": "KO", "cik": "0000021344", "name": "Coca-Cola Co" },
+  { "ticker": "LEN", "cik": "0000920760", "name": "Lennar Corp"},
   { "ticker": "LLY", "cik": "0000059478", "name": "Eli Lilly & Co" },
   { "ticker": "LMT", "cik": "0000936468", "name": "Lockheed Martin Corp" },
   { "ticker": "LOW", "cik": "0000060667", "name": "Lowe's Companies, Inc." },
