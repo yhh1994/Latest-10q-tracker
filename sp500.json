@@ -72,6 +72,7 @@
   { "ticker": "NOW", "cik": "0001372612", "name": "ServiceNow, Inc." },
   { "ticker": "NVDA", "cik": "0001045810", "name": "NVIDIA Corp" },
   { "ticker": "ORCL", "cik": "0001341439", "name": "Oracle Corp" },
+  { "ticker": "ODD", "cik": "0002008127", "name": "Oddity Tech Ltd" },
   { "ticker": "PEP", "cik": "0000077476", "name": "PepsiCo, Inc." },
   { "ticker": "PFE", "cik": "0000078003", "name": "Pfizer Inc." },
   { "ticker": "PG", "cik": "0000080424", "name": "Procter & Gamble Co" },
