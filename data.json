@@ -1,5 +1,12 @@
 [
   {
+    "title": "10-K - INTU (Intuit Inc.)",
+    "ticker": "INTU",
+    "form": "10-K",
+    "link": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000037/intu-20260731.htm",
+    "date": "2026-09-09"
+  },
+  {
     "title": "10-Q - MDT (Medtronic plc)",
     "ticker": "MDT",
     "form": "10-Q",
