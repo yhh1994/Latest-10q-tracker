@@ -35,13 +35,6 @@
     "date": "2026-08-28"
   },
   {
-    "title": "10-Q - CAT (Caterpillar Inc.)",
-    "ticker": "CAT",
-    "form": "10-Q",
-    "link": "https://www.sec.gov/Archives/edgar/data/18255/000156276226000100/cato26qtr2q.htm",
-    "date": "2026-08-27"
-  },
-  {
     "title": "10-Q - CRM (Salesforce, Inc.)",
     "ticker": "CRM",
     "form": "10-Q",
@@ -200,6 +193,13 @@
     "ticker": "AMGN",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/318154/000031815426000126/amgn-20260630.htm",
+    "date": "2026-08-05"
+  },
+  {
+    "title": "10-Q - CAT (Caterpillar Inc.)",
+    "ticker": "CAT",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000046/cat-20260630.htm",
     "date": "2026-08-05"
   },
   {
@@ -714,13 +714,6 @@
     "date": "2026-05-29"
   },
   {
-    "title": "10-Q - CAT (Caterpillar Inc.)",
-    "ticker": "CAT",
-    "form": "10-Q",
-    "link": "https://www.sec.gov/Archives/edgar/data/18255/000001825526000004/cato-20260502.htm",
-    "date": "2026-05-28"
-  },
-  {
     "title": "10-Q - CRM (Salesforce, Inc.)",
     "ticker": "CRM",
     "form": "10-Q",
@@ -858,6 +851,13 @@
     "ticker": "AMD",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000076/amd-20260328.htm",
+    "date": "2026-05-06"
+  },
+  {
+    "title": "10-Q - CAT (Caterpillar Inc.)",
+    "ticker": "CAT",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000021/cat-20260331.htm",
     "date": "2026-05-06"
   },
   {
@@ -1358,13 +1358,6 @@
     "date": "2026-03-25"
   },
   {
-    "title": "10-K - CAT (Caterpillar Inc.)",
-    "ticker": "CAT",
-    "form": "10-K",
-    "link": "https://www.sec.gov/Archives/edgar/data/18255/000156276226000041/cato-20260131.htm",
-    "date": "2026-03-25"
-  },
-  {
     "title": "10-K - LOW (Lowe's Companies, Inc.)",
     "ticker": "LOW",
     "form": "10-K",
@@ -1733,6 +1726,13 @@
     "ticker": "AMGN",
     "form": "10-K",
     "link": "https://www.sec.gov/Archives/edgar/data/318154/000031815426000010/amgn-20251231.htm",
+    "date": "2026-02-13"
+  },
+  {
+    "title": "10-K - CAT (Caterpillar Inc.)",
+    "ticker": "CAT",
+    "form": "10-K",
+    "link": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000008/cat-20251231.htm",
     "date": "2026-02-13"
   },
   {
@@ -2128,13 +2128,6 @@
     "date": "2025-11-26"
   },
   {
-    "title": "10-Q - CAT (Caterpillar Inc.)",
-    "ticker": "CAT",
-    "form": "10-Q",
-    "link": "https://www.sec.gov/Archives/edgar/data/18255/000156276225000278/cato25qtr3q.htm",
-    "date": "2025-11-25"
-  },
-  {
     "title": "10-Q - MDT (Medtronic plc)",
     "ticker": "MDT",
     "form": "10-Q",
@@ -2342,6 +2335,13 @@
     "ticker": "BRK-B",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525261548/brka-20250930.htm",
+    "date": "2025-11-03"
+  },
+  {
+    "title": "10-Q - CAT (Caterpillar Inc.)",
+    "ticker": "CAT",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/18230/000001823025000048/cat-20250930.htm",
     "date": "2025-11-03"
   },
   {
@@ -2807,13 +2807,6 @@
     "date": "2025-08-29"
   },
   {
-    "title": "10-Q - CAT (Caterpillar Inc.)",
-    "ticker": "CAT",
-    "form": "10-Q",
-    "link": "https://www.sec.gov/Archives/edgar/data/18255/000156276225000224/cato25qtr2q.htm",
-    "date": "2025-08-28"
-  },
-  {
     "title": "10-Q - DE (Deere & Co)",
     "ticker": "DE",
     "form": "10-Q",
@@ -2951,6 +2944,13 @@
     "ticker": "AMGN",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/318154/000031815425000056/amgn-20250630.htm",
+    "date": "2025-08-06"
+  },
+  {
+    "title": "10-Q - CAT (Caterpillar Inc.)",
+    "ticker": "CAT",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/18230/000001823025000040/cat-20250630.htm",
     "date": "2025-08-06"
   },
   {
@@ -3444,13 +3444,6 @@
     "date": "2025-05-30"
   },
   {
-    "title": "10-Q - CAT (Caterpillar Inc.)",
-    "ticker": "CAT",
-    "form": "10-Q",
-    "link": "https://www.sec.gov/Archives/edgar/data/18255/000156276225000149/cato-20250503.htm",
-    "date": "2025-05-29"
-  },
-  {
     "title": "10-Q - CRM (Salesforce, Inc.)",
     "ticker": "CRM",
     "form": "10-Q",
@@ -3567,6 +3560,13 @@
     "ticker": "AMD",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000047/amd-20250329.htm",
+    "date": "2025-05-07"
+  },
+  {
+    "title": "10-Q - CAT (Caterpillar Inc.)",
+    "ticker": "CAT",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/18230/000001823025000016/cat-20250331.htm",
     "date": "2025-05-07"
   },
   {
@@ -4039,13 +4039,6 @@
     "date": "2025-04-03"
   },
   {
-    "title": "10-K - CAT (Caterpillar Inc.)",
-    "ticker": "CAT",
-    "form": "10-K",
-    "link": "https://www.sec.gov/Archives/edgar/data/18255/000156276225000062/cato-20250201.htm",
-    "date": "2025-03-31"
-  },
-  {
     "title": "10-Q - ADBE (Adobe Inc.)",
     "ticker": "ADBE",
     "form": "10-Q",
@@ -4379,6 +4372,13 @@
     "ticker": "AMGN",
     "form": "10-K",
     "link": "https://www.sec.gov/Archives/edgar/data/318154/000031815425000010/amgn-20241231.htm",
+    "date": "2025-02-14"
+  },
+  {
+    "title": "10-K - CAT (Caterpillar Inc.)",
+    "ticker": "CAT",
+    "form": "10-K",
+    "link": "https://www.sec.gov/Archives/edgar/data/18230/000001823025000008/cat-20241231.htm",
     "date": "2025-02-14"
   },
   {
@@ -4774,13 +4774,6 @@
     "date": "2024-11-27"
   },
   {
-    "title": "10-Q - CAT (Caterpillar Inc.)",
-    "ticker": "CAT",
-    "form": "10-Q",
-    "link": "https://www.sec.gov/Archives/edgar/data/18255/000156276224000277/cato24qtr3q.htm",
-    "date": "2024-11-26"
-  },
-  {
     "title": "10-Q - MDT (Medtronic plc)",
     "ticker": "MDT",
     "form": "10-Q",
@@ -4905,6 +4898,13 @@
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/1579733/000095017024122803/vitl-20240929.htm",
     "date": "2024-11-07"
+  },
+  {
+    "title": "10-Q - CAT (Caterpillar Inc.)",
+    "ticker": "CAT",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/18230/000001823024000053/cat-20240930.htm",
+    "date": "2024-11-06"
   },
   {
     "title": "10-Q - CVS (CVS Health Corp)",
@@ -5411,13 +5411,6 @@
     "date": "2024-08-30"
   },
   {
-    "title": "10-Q - CAT (Caterpillar Inc.)",
-    "ticker": "CAT",
-    "form": "10-Q",
-    "link": "https://www.sec.gov/Archives/edgar/data/18255/000156276224000215/cato24qtr2q.htm",
-    "date": "2024-08-29"
-  },
-  {
     "title": "10-Q - CRM (Salesforce, Inc.)",
     "ticker": "CRM",
     "form": "10-Q",
@@ -5527,6 +5520,13 @@
     "ticker": "AMGN",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/318154/000031815424000035/amgn-20240630.htm",
+    "date": "2024-08-07"
+  },
+  {
+    "title": "10-Q - CAT (Caterpillar Inc.)",
+    "ticker": "CAT",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/18230/000001823024000045/cat-20240630.htm",
     "date": "2024-08-07"
   },
   {
@@ -6055,13 +6055,6 @@
     "date": "2024-05-31"
   },
   {
-    "title": "10-Q - CAT (Caterpillar Inc.)",
-    "ticker": "CAT",
-    "form": "10-Q",
-    "link": "https://www.sec.gov/Archives/edgar/data/18255/000156276224000159/cato-20240504.htm",
-    "date": "2024-05-30"
-  },
-  {
     "title": "10-Q - CRM (Salesforce, Inc.)",
     "ticker": "CRM",
     "form": "10-Q",
@@ -6339,6 +6332,13 @@
     "ticker": "AMZN",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000083/amzn-20240331.htm",
+    "date": "2024-05-01"
+  },
+  {
+    "title": "10-Q - CAT (Caterpillar Inc.)",
+    "ticker": "CAT",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/18230/000001823024000020/cat-20240331.htm",
     "date": "2024-05-01"
   },
   {
@@ -6657,13 +6657,6 @@
     "date": "2024-03-27"
   },
   {
-    "title": "10-K - CAT (Caterpillar Inc.)",
-    "ticker": "CAT",
-    "form": "10-K",
-    "link": "https://www.sec.gov/Archives/edgar/data/18255/000156276224000065/cato2023012810K.htm",
-    "date": "2024-03-27"
-  },
-  {
     "title": "10-K - LOW (Lowe's Companies, Inc.)",
     "ticker": "LOW",
     "form": "10-K",
@@ -6962,6 +6955,13 @@
     "ticker": "ABT",
     "form": "10-K",
     "link": "https://www.sec.gov/Archives/edgar/data/1800/000162828024005348/abt-20231231.htm",
+    "date": "2024-02-16"
+  },
+  {
+    "title": "10-K - CAT (Caterpillar Inc.)",
+    "ticker": "CAT",
+    "form": "10-K",
+    "link": "https://www.sec.gov/Archives/edgar/data/18230/000001823024000009/cat-20231231.htm",
     "date": "2024-02-16"
   },
   {
@@ -7392,13 +7392,6 @@
     "date": "2023-11-22"
   },
   {
-    "title": "10-Q - CAT (Caterpillar Inc.)",
-    "ticker": "CAT",
-    "form": "10-Q",
-    "link": "https://www.sec.gov/Archives/edgar/data/18255/000156276223000429/cato23qtr3q.htm",
-    "date": "2023-11-21"
-  },
-  {
     "title": "10-Q - CSCO (Cisco Systems, Inc.)",
     "ticker": "CSCO",
     "form": "10-Q",
@@ -7627,6 +7620,13 @@
     "ticker": "AMD",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/2488/000000248823000195/amd-20230930.htm",
+    "date": "2023-11-01"
+  },
+  {
+    "title": "10-Q - CAT (Caterpillar Inc.)",
+    "ticker": "CAT",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/18230/000001823023000056/cat-20230930.htm",
     "date": "2023-11-01"
   },
   {
