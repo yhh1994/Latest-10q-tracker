@@ -1,5 +1,12 @@
 [
   {
+    "title": "10-Q - AVGO (Broadcom Inc.)",
+    "ticker": "AVGO",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
+    "date": "2026-09-10"
+  },
+  {
     "title": "10-K - INTU (Intuit Inc.)",
     "ticker": "INTU",
     "form": "10-K",
