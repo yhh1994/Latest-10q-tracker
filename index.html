@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Latest 10-Q Filings</title>
+    <title>SEC Filings Tracker</title>
     <style>
         :root {
             --bg-color: #f2f2f7;
@@ -12,136 +12,278 @@
             --text-muted: #8e8e93;
             --accent: #007aff;
             --border-color: #e5e5ea;
+            --10q-color: #e0f2fe;
+            --10q-text: #0284c7;
+            --10k-color: #dcfce7;
+            --10k-text: #16a34a;
         }
         body { 
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
             background-color: var(--bg-color);
             color: var(--text-main);
-            max-width: 800px; 
+            max-width: 1000px; 
             margin: 0 auto; 
             padding: 2rem 1rem; 
         }
-        .header {
+        
+        /* Header & Controls */
+        .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; }
+        h1 { font-size: 1.75rem; margin: 0; }
+        
+        .controls-container {
+            background: var(--card-bg);
+            padding: 1rem;
+            border-radius: 12px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
             margin-bottom: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
         }
-        h1 {
-            font-size: 1.75rem;
-            margin-bottom: 1rem;
-            padding-left: 0.25rem;
-        }
+        .search-row { display: flex; gap: 0.5rem; }
         .search-box {
-            width: 100%;
+            flex-grow: 1;
             padding: 0.75rem 1rem;
             font-size: 1rem;
             border: 1px solid var(--border-color);
-            border-radius: 10px;
-            box-sizing: border-box;
-            background-color: var(--card-bg);
+            border-radius: 8px;
             outline: none;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
             -webkit-appearance: none;
         }
-        .search-box:focus {
-            border-color: var(--accent);
+        .search-box:focus { border-color: var(--accent); }
+        .sort-box {
+            padding: 0.75rem;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            background: #fff;
+            font-size: 0.9rem;
         }
-        .filings-list {
+        
+        /* Filter Chips */
+        .filters { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+        .chip {
+            padding: 0.4rem 0.8rem;
+            border-radius: 20px;
+            background: var(--bg-color);
+            border: 1px solid var(--border-color);
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .chip.active { background: var(--text-main); color: #fff; border-color: var(--text-main); }
+        
+        .view-toggles button { background: none; border: none; font-size: 1.2rem; cursor: pointer; opacity: 0.5; }
+        .view-toggles button.active { opacity: 1; color: var(--accent); }
+
+        /* Container Layouts */
+        .filings-container.list { display: flex; flex-direction: column; gap: 0.5rem; }
+        .filings-container.grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+            gap: 1rem; 
+        }
+
+        /* Card Styles */
+        .filing-card {
             background-color: var(--card-bg);
             border-radius: 12px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-            overflow: hidden;
+            padding: 1rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            border: 1px solid transparent;
         }
-        .filing { 
-            padding: 1rem 1.5rem;
-            border-bottom: 1px solid var(--border-color); 
+        .filing-card:hover { border-color: var(--border-color); }
+        
+        /* Ticker Avatar */
+        .avatar {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);
+            color: #1c1c1e;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 0.9rem;
+            flex-shrink: 0;
         }
-        .filing:last-child {
-            border-bottom: none;
-        }
-        .filing a { 
-            color: var(--accent); 
-            text-decoration: none; 
-            font-size: 1.1rem; 
-            font-weight: 600; 
-            display: block;
-            margin-bottom: 0.25rem;
-        }
-        .filing a:hover { 
-            text-decoration: underline; 
-        }
-        .filing p { 
-            color: var(--text-muted); 
-            font-size: 0.9rem; 
-            margin: 0; 
-        }
-        .status {
-            padding: 1.5rem;
-            text-align: center;
-            color: var(--text-muted);
-        }
+        
+        /* Card Content */
+        .card-content { flex-grow: 1; overflow: hidden; }
+        .company-name { font-weight: 600; font-size: 1.05rem; margin-bottom: 0.25rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .meta-row { display: flex; align-items: center; gap: 0.5rem; font-size: 0.85rem; color: var(--text-muted); }
+        
+        /* Badges */
+        .badge { padding: 0.2rem 0.5rem; border-radius: 6px; font-weight: 600; font-size: 0.75rem; }
+        .badge-10-q { background: var(--10q-color); color: var(--10q-text); }
+        .badge-10-k { background: var(--10k-color); color: var(--10k-text); }
+        
+        /* Actions */
+        .card-actions { display: flex; flex-direction: column; align-items: flex-end; gap: 0.5rem; }
+        .star-btn { background: none; border: none; cursor: pointer; font-size: 1.2rem; color: #d1d1d6; }
+        .star-btn.favorited { color: #ffd60a; }
+        .link-btn { text-decoration: none; color: #fff; background: var(--accent); padding: 0.4rem 0.8rem; border-radius: 6px; font-size: 0.85rem; font-weight: 500; }
+        
+        .status { padding: 2rem; text-align: center; color: var(--text-muted); }
     </style>
 </head>
 <body>
     <div class="header">
-        <h1>Latest 10-Q Filings</h1>
-        <input 
-            type="text" 
-            id="search-input" 
-            class="search-box" 
-            placeholder="Search by company, ticker, or form (e.g., AAPL, 10-K)..." 
-            oninput="filterFilings()"
-        />
+        <h1>SEC Filings</h1>
+        <div class="view-toggles">
+            <button id="btn-list" class="active" onclick="setView('list')">☰</button>
+            <button id="btn-grid" onclick="setView('grid')">⊞</button>
+        </div>
     </div>
 
-    <div class="filings-list" id="filings-container">
+    <div class="controls-container">
+        <div class="search-row">
+            <input type="text" id="search-input" class="search-box" placeholder="Search ticker or company..." oninput="updateUI()">
+            <select id="sort-select" class="sort-box" onchange="updateUI()">
+                <option value="newest">Newest First</option>
+                <option value="oldest">Oldest First</option>
+                <option value="ticker-asc">Ticker (A-Z)</option>
+            </select>
+        </div>
+        <div class="filters">
+            <button class="chip active" onclick="setFilter('all', this)">All</button>
+            <button class="chip" onclick="setFilter('10-Q', this)">10-Q Only</button>
+            <button class="chip" onclick="setFilter('10-K', this)">10-K Only</button>
+            <button class="chip" onclick="setFilter('recent', this)">Last 7 Days</button>
+            <button class="chip" onclick="setFilter('favorites', this)">⭐ Watchlist</button>
+        </div>
+    </div>
+
+    <div class="filings-container list" id="filings-container">
         <div class="status">Loading filings...</div>
     </div>
 
     <script>
         let allFilings = [];
+        let currentFilter = 'all';
+        let currentView = 'list';
+        let favorites = JSON.parse(localStorage.getItem('secFavorites')) || [];
 
-        // Fetch data from data.json
+        // Fetch data
         fetch('data.json')
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Data file not found.');
-                }
-                return response.json();
-            })
+            .then(res => res.json())
             .then(data => {
                 allFilings = data;
-                renderFilings(allFilings);
+                updateUI();
             })
-            .catch(error => {
-                document.getElementById('filings-container').innerHTML = 
-                    `<div class="status">⚠️ ${error.message}</div>`;
+            .catch(err => {
+                document.getElementById('filings-container').innerHTML = `<div class="status">⚠️ Data not found. Check GitHub Actions.</div>`;
             });
 
-        // Render filings array to HTML
-        function renderFilings(filings) {
+        function setFilter(filterType, btnElement) {
+            currentFilter = filterType;
+            document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+            btnElement.classList.add('active');
+            updateUI();
+        }
+
+        function setView(viewType) {
+            currentView = viewType;
             const container = document.getElementById('filings-container');
+            container.className = `filings-container ${viewType}`;
+            document.getElementById('btn-list').classList.toggle('active', viewType === 'list');
+            document.getElementById('btn-grid').classList.toggle('active', viewType === 'grid');
+        }
+
+        function toggleFavorite(ticker) {
+            if (favorites.includes(ticker)) {
+                favorites = favorites.filter(t => t !== ticker);
+            } else {
+                favorites.push(ticker);
+            }
+            localStorage.setItem('secFavorites', JSON.stringify(favorites));
+            updateUI(); // Re-render to update star icons and filters
+        }
+
+        // Generate a random gradient based on ticker string so avatars look distinct
+        function getGradient(ticker) {
+            const colors = [
+                ['#ff9a9e', '#fecfef'], ['#a1c4fd', '#c2e9fb'], ['#d4fc79', '#96e6a1'], 
+                ['#84fab0', '#8fd3f4'], ['#fccb90', '#d57eeb'], ['#e0c3fc', '#8ec5fc']
+            ];
+            let sum = 0;
+            for(let i=0; i<ticker.length; i++) sum += ticker.charCodeAt(i);
+            const color = colors[sum % colors.length];
+            return `linear-gradient(135deg, ${color[0]} 0%, ${color[1]} 100%)`;
+        }
+
+        function extractCompanyName(title) {
+            // Titles are formatted as "10-Q - AAPL (Apple Inc.)"
+            const match = title.match(/\(([^)]+)\)/);
+            return match ? match[1] : title;
+        }
+
+        function updateUI() {
+            const query = document.getElementById('search-input').value.toLowerCase().trim();
+            const sort = document.getElementById('sort-select').value;
             
-            if (filings.length === 0) {
-                container.innerHTML = '<div class="status">No matching filings found.</div>';
+            // 1. Filter
+            let processed = allFilings.filter(f => {
+                let matchSearch = f.title.toLowerCase().includes(query) || f.ticker.toLowerCase().includes(query);
+                
+                let matchFilter = true;
+                if (currentFilter === '10-Q') matchFilter = f.form === '10-Q';
+                if (currentFilter === '10-K') matchFilter = f.form === '10-K';
+                if (currentFilter === 'favorites') matchFilter = favorites.includes(f.ticker);
+                if (currentFilter === 'recent') {
+                    const filingDate = new Date(f.date);
+                    const diffDays = (new Date() - filingDate) / (1000 * 3600 * 24);
+                    matchFilter = diffDays <= 7;
+                }
+                
+                return matchSearch && matchFilter;
+            });
+
+            // 2. Sort
+            processed.sort((a, b) => {
+                if (sort === 'newest') return new Date(b.date) - new Date(a.date);
+                if (sort === 'oldest') return new Date(a.date) - new Date(b.date);
+                if (sort === 'ticker-asc') return a.ticker.localeCompare(b.ticker);
+            });
+
+            // 3. Render
+            const container = document.getElementById('filings-container');
+            if (processed.length === 0) {
+                container.innerHTML = '<div class="status">No filings match your criteria.</div>';
                 return;
             }
 
-            container.innerHTML = filings.map(f => `
-                <div class="filing">
-                    <a href="${f.link}" target="_blank">${f.title}</a>
-                    <p>Filed: ${new Date(f.date).toLocaleString()}</p>
-                </div>
-            `).join('');
-        }
-
-        // Live filter function triggered on typing
-        function filterFilings() {
-            const query = document.getElementById('search-input').value.toLowerCase().trim();
-            
-            const filtered = allFilings.filter(f => 
-                f.title.toLowerCase().includes(query)
-            );
-            
-            renderFilings(filtered);
+            container.innerHTML = processed.map(f => {
+                const isFav = favorites.includes(f.ticker);
+                const companyName = extractCompanyName(f.title);
+                const badgeClass = f.form === '10-Q' ? 'badge-10-q' : 'badge-10-k';
+                
+                return `
+                    <div class="filing-card">
+                        <div class="avatar" style="background: ${getGradient(f.ticker)}">
+                            ${f.ticker.substring(0, 3)}
+                        </div>
+                        <div class="card-content">
+                            <div class="company-name">${companyName}</div>
+                            <div class="meta-row">
+                                <span class="badge ${badgeClass}">${f.form}</span>
+                                <span>${f.ticker}</span> • 
+                                <span>${f.date}</span>
+                            </div>
+                        </div>
+                        <div class="card-actions">
+                            <button class="star-btn ${isFav ? 'favorited' : ''}" onclick="toggleFavorite('${f.ticker}')">
+                                ${isFav ? '★' : '☆'}
+                            </button>
+                            <a href="${f.link}" target="_blank" class="link-btn">View</a>
+                        </div>
+                    </div>
+                `;
+            }).join('');
         }
     </script>
 </body>
