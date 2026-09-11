@@ -1,5 +1,12 @@
 [
   {
+    "title": "10-Q - ORCL (Oracle Corp)",
+    "ticker": "ORCL",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm",
+    "date": "2026-09-11"
+  },
+  {
     "title": "10-Q - AVGO (Broadcom Inc.)",
     "ticker": "AVGO",
     "form": "10-Q",
