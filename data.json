@@ -238,6 +238,13 @@
     "date": "2026-08-05"
   },
   {
+    "title": "10-Q - NYT (New York Times CO)",
+    "ticker": "NYT",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/71691/000007169126000034/nyt-20260630.htm",
+    "date": "2026-08-05"
+  },
+  {
     "title": "10-Q - SOLV (Solventum Corp)",
     "ticker": "SOLV",
     "form": "10-Q",
@@ -889,6 +896,13 @@
     "date": "2026-05-06"
   },
   {
+    "title": "10-Q - NYT (New York Times CO)",
+    "ticker": "NYT",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/71691/000007169126000025/nyt-20260331.htm",
+    "date": "2026-05-06"
+  },
+  {
     "title": "10-Q - UPS (United Parcel Service, Inc.)",
     "ticker": "UPS",
     "form": "10-Q",
@@ -1460,6 +1474,13 @@
     "ticker": "CB",
     "form": "10-K",
     "link": "https://www.sec.gov/Archives/edgar/data/896159/000089615926000005/cb-20251231.htm",
+    "date": "2026-02-27"
+  },
+  {
+    "title": "10-K - NYT (New York Times CO)",
+    "ticker": "NYT",
+    "form": "10-K",
+    "link": "https://www.sec.gov/Archives/edgar/data/71691/000007169126000011/nyt-20251231.htm",
     "date": "2026-02-27"
   },
   {
@@ -2303,6 +2324,13 @@
     "date": "2025-11-05"
   },
   {
+    "title": "10-Q - NYT (New York Times CO)",
+    "ticker": "NYT",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/71691/000007169125000126/nyt-20250930.htm",
+    "date": "2025-11-05"
+  },
+  {
     "title": "10-K - QCOM (QUALCOMM Inc.)",
     "ticker": "QCOM",
     "form": "10-K",
@@ -2982,6 +3010,13 @@
     "date": "2025-08-06"
   },
   {
+    "title": "10-Q - NYT (New York Times CO)",
+    "ticker": "NYT",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/71691/000007169125000119/nyt-20250630.htm",
+    "date": "2025-08-06"
+  },
+  {
     "title": "10-Q - UPS (United Parcel Service, Inc.)",
     "ticker": "UPS",
     "form": "10-Q",
@@ -3598,6 +3633,13 @@
     "date": "2025-05-07"
   },
   {
+    "title": "10-Q - NYT (New York Times CO)",
+    "ticker": "NYT",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/71691/000007169125000100/nyt-20250331.htm",
+    "date": "2025-05-07"
+  },
+  {
     "title": "10-Q - UNH (UnitedHealth Group Inc.)",
     "ticker": "UNH",
     "form": "10-Q",
@@ -4190,6 +4232,13 @@
     "ticker": "EOG",
     "form": "10-K",
     "link": "https://www.sec.gov/Archives/edgar/data/821189/000082118925000011/eog-20241231.htm",
+    "date": "2025-02-27"
+  },
+  {
+    "title": "10-K - NYT (New York Times CO)",
+    "ticker": "NYT",
+    "form": "10-K",
+    "link": "https://www.sec.gov/Archives/edgar/data/71691/000007169125000047/nyt-20241231.htm",
     "date": "2025-02-27"
   },
   {
@@ -4963,6 +5012,13 @@
     "date": "2024-11-04"
   },
   {
+    "title": "10-Q - NYT (New York Times CO)",
+    "ticker": "NYT",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/71691/000007169124000160/nyt-20240930.htm",
+    "date": "2024-11-04"
+  },
+  {
     "title": "10-Q - PFE (Pfizer Inc.)",
     "ticker": "PFE",
     "form": "10-Q",
@@ -5562,6 +5618,13 @@
     "ticker": "DIS",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/1744489/000174448924000232/dis-20240629.htm",
+    "date": "2024-08-07"
+  },
+  {
+    "title": "10-Q - NYT (New York Times CO)",
+    "ticker": "NYT",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/71691/000007169124000132/nyt-20240630.htm",
     "date": "2024-08-07"
   },
   {
@@ -6171,6 +6234,13 @@
     "ticker": "MCD",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/63908/000006390824000092/mcd-20240331.htm",
+    "date": "2024-05-08"
+  },
+  {
+    "title": "10-Q - NYT (New York Times CO)",
+    "ticker": "NYT",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/71691/000007169124000105/nyt-20240331.htm",
     "date": "2024-05-08"
   },
   {
@@ -6958,6 +7028,13 @@
     "date": "2024-02-20"
   },
   {
+    "title": "10-K - NYT (New York Times CO)",
+    "ticker": "NYT",
+    "form": "10-K",
+    "link": "https://www.sec.gov/Archives/edgar/data/71691/000007169124000030/nyt-20231231.htm",
+    "date": "2024-02-20"
+  },
+  {
     "title": "10-K - UPS (United Parcel Service, Inc.)",
     "ticker": "UPS",
     "form": "10-K",
@@ -7446,6 +7523,13 @@
     "form": "10-K",
     "link": "https://www.sec.gov/Archives/edgar/data/1403161/000140316123000099/v-20230930.htm",
     "date": "2023-11-15"
+  },
+  {
+    "title": "10-Q - NYT (New York Times CO)",
+    "ticker": "NYT",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/71691/000007169123000034/nyt-20230930.htm",
+    "date": "2023-11-08"
   },
   {
     "title": "10-Q - PFE (Pfizer Inc.)",
@@ -7957,12 +8041,5 @@
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/796343/000079634323000205/adbe-20230901.htm",
     "date": "2023-09-27"
-  },
-  {
-    "title": "10-Q - ORCL (Oracle Corp)",
-    "ticker": "ORCL",
-    "form": "10-Q",
-    "link": "https://www.sec.gov/Archives/edgar/data/1341439/000095017023047713/orcl-20230831.htm",
-    "date": "2023-09-12"
   }
 ]
