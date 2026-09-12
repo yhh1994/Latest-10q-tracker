@@ -71,6 +71,7 @@
   { "ticker": "NKE", "cik": "0000320187", "name": "NIKE, Inc." },
   { "ticker": "NOW", "cik": "0001372612", "name": "ServiceNow, Inc." },
   { "ticker": "NVDA", "cik": "0001045810", "name": "NVIDIA Corp" },
+  { "ticker": "NYT", "cik": "0000071691", "name": "New York Times CO" },
   { "ticker": "ORCL", "cik": "0001341439", "name": "Oracle Corp" },
   { "ticker": "ODD", "cik": "0002008127", "name": "Oddity Tech Ltd" },
   { "ticker": "PEP", "cik": "0000077476", "name": "PepsiCo, Inc." },
