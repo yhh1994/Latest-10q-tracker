@@ -105,6 +105,13 @@
     "date": "2026-08-10"
   },
   {
+    "title": "10-Q - HIMS (Hims & Hers Health, Inc.)",
+    "ticker": "HIMS",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1773751/000177375126000163/hims-20260630.htm",
+    "date": "2026-08-10"
+  },
+  {
     "title": "10-Q - UNH (UnitedHealth Group Inc.)",
     "ticker": "UNH",
     "form": "10-Q",
@@ -123,6 +130,13 @@
     "ticker": "BKNG",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/1070750/000107075026000126/hst-20260630.htm",
+    "date": "2026-08-07"
+  },
+  {
+    "title": "10-Q - FISV (Fiserv, Inc.)",
+    "ticker": "FISV",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/798354/000079835426000031/fisv-20260630.htm",
     "date": "2026-08-07"
   },
   {
@@ -161,6 +175,13 @@
     "date": "2026-08-06"
   },
   {
+    "title": "10-Q - CELH (Celsius Holdings, Inc.)",
+    "ticker": "CELH",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1341766/000134176626000050/celh-20260630.htm",
+    "date": "2026-08-06"
+  },
+  {
     "title": "10-Q - COP (ConocoPhillips)",
     "ticker": "COP",
     "form": "10-Q",
@@ -172,6 +193,13 @@
     "ticker": "CVX",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000167/cvx-20260630.htm",
+    "date": "2026-08-06"
+  },
+  {
+    "title": "10-Q - DUOL (Duolingo, Inc.)",
+    "ticker": "DUOL",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026053603/duol-20260630.htm",
     "date": "2026-08-06"
   },
   {
@@ -193,6 +221,13 @@
     "ticker": "MET",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/1099219/000109921926000050/met-20260630.htm",
+    "date": "2026-08-06"
+  },
+  {
+    "title": "10-Q - SOFI (SoFi Technologies, Inc.)",
+    "ticker": "SOFI",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1818874/000181887426000054/sofi-20260630.htm",
     "date": "2026-08-06"
   },
   {
@@ -224,6 +259,13 @@
     "date": "2026-08-05"
   },
   {
+    "title": "10-Q - CE (Celanese Corporation)",
+    "ticker": "CE",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1306830/000130683026000117/ce-20260630.htm",
+    "date": "2026-08-05"
+  },
+  {
     "title": "10-Q - CVS (CVS Health Corp)",
     "ticker": "CVS",
     "form": "10-Q",
@@ -245,6 +287,13 @@
     "date": "2026-08-05"
   },
   {
+    "title": "10-Q - KHC (Kraft Heinz Company)",
+    "ticker": "KHC",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1637459/000163745926000054/khc-20260627.htm",
+    "date": "2026-08-05"
+  },
+  {
     "title": "10-Q - LLY (Eli Lilly & Co)",
     "ticker": "LLY",
     "form": "10-Q",
@@ -256,6 +305,13 @@
     "ticker": "NYT",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/71691/000007169126000034/nyt-20260630.htm",
+    "date": "2026-08-05"
+  },
+  {
+    "title": "10-Q - OXY (Occidental Petroleum Corporation)",
+    "ticker": "OXY",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/797468/000162828026053388/oxy-20260630.htm",
     "date": "2026-08-05"
   },
   {
@@ -417,6 +473,13 @@
     "ticker": "MO",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/764180/000076418026000094/mo-20260630.htm",
+    "date": "2026-07-30"
+  },
+  {
+    "title": "10-Q - SIRI (Sirius XM Holdings Inc.)",
+    "ticker": "SIRI",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/908937/000090893726000022/siri-20260630.htm",
     "date": "2026-07-30"
   },
   {
@@ -805,6 +868,13 @@
     "date": "2026-05-19"
   },
   {
+    "title": "10-Q - HIMS (Hims & Hers Health, Inc.)",
+    "ticker": "HIMS",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1773751/000177375126000076/hims-20260331.htm",
+    "date": "2026-05-11"
+  },
+  {
     "title": "10-Q - SYK (Stryker Corp)",
     "ticker": "SYK",
     "form": "10-Q",
@@ -847,6 +917,13 @@
     "date": "2026-05-07"
   },
   {
+    "title": "10-Q - CELH (Celsius Holdings, Inc.)",
+    "ticker": "CELH",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1341766/000134176626000039/celh-20260331.htm",
+    "date": "2026-05-07"
+  },
+  {
     "title": "10-Q - CVX (Chevron Corp)",
     "ticker": "CVX",
     "form": "10-Q",
@@ -872,6 +949,13 @@
     "ticker": "MET",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/1099219/000109921926000035/met-20260331.htm",
+    "date": "2026-05-07"
+  },
+  {
+    "title": "10-Q - SOFI (SoFi Technologies, Inc.)",
+    "ticker": "SOFI",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1818874/000181887426000037/sofi-20260331.htm",
     "date": "2026-05-07"
   },
   {
@@ -903,6 +987,13 @@
     "date": "2026-05-06"
   },
   {
+    "title": "10-Q - CE (Celanese Corporation)",
+    "ticker": "CE",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1306830/000130683026000096/ce-20260331.htm",
+    "date": "2026-05-06"
+  },
+  {
     "title": "10-Q - CVS (CVS Health Corp)",
     "ticker": "CVS",
     "form": "10-Q",
@@ -924,6 +1015,20 @@
     "date": "2026-05-06"
   },
   {
+    "title": "10-Q - FISV (Fiserv, Inc.)",
+    "ticker": "FISV",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/798354/000079835426000018/fisv-20260331.htm",
+    "date": "2026-05-06"
+  },
+  {
+    "title": "10-Q - KHC (Kraft Heinz Company)",
+    "ticker": "KHC",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1637459/000163745926000022/khc-20260328.htm",
+    "date": "2026-05-06"
+  },
+  {
     "title": "10-Q - NYT (New York Times CO)",
     "ticker": "NYT",
     "form": "10-Q",
@@ -938,6 +1043,13 @@
     "date": "2026-05-06"
   },
   {
+    "title": "10-Q - DUOL (Duolingo, Inc.)",
+    "ticker": "DUOL",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026029976/duol-20260331.htm",
+    "date": "2026-05-05"
+  },
+  {
     "title": "10-Q - EOG (EOG Resources, Inc.)",
     "ticker": "EOG",
     "form": "10-Q",
@@ -949,6 +1061,13 @@
     "ticker": "MS",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/895421/000089542126000121/ms-20260331.htm",
+    "date": "2026-05-05"
+  },
+  {
+    "title": "10-Q - OXY (Occidental Petroleum Corporation)",
+    "ticker": "OXY",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/797468/000162828026030584/oxy-20260331.htm",
     "date": "2026-05-05"
   },
   {
@@ -1152,6 +1271,13 @@
     "ticker": "PLD",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/1045609/000119312526197850/pld-20260331.htm",
+    "date": "2026-04-30"
+  },
+  {
+    "title": "10-Q - SIRI (Sirius XM Holdings Inc.)",
+    "ticker": "SIRI",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/908937/000090893726000011/siri-20260331.htm",
     "date": "2026-04-30"
   },
   {
@@ -1484,6 +1610,13 @@
     "date": "2026-03-02"
   },
   {
+    "title": "10-K - CELH (Celsius Holdings, Inc.)",
+    "ticker": "CELH",
+    "form": "10-K",
+    "link": "https://www.sec.gov/Archives/edgar/data/1341766/000134176626000024/celh-20251231.htm",
+    "date": "2026-03-02"
+  },
+  {
     "title": "10-K - CRM (Salesforce, Inc.)",
     "ticker": "CRM",
     "form": "10-K",
@@ -1509,6 +1642,13 @@
     "ticker": "CB",
     "form": "10-K",
     "link": "https://www.sec.gov/Archives/edgar/data/896159/000089615926000005/cb-20251231.htm",
+    "date": "2026-02-27"
+  },
+  {
+    "title": "10-K - DUOL (Duolingo, Inc.)",
+    "ticker": "DUOL",
+    "form": "10-K",
+    "link": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026012494/duol-20251231.htm",
     "date": "2026-02-27"
   },
   {
@@ -1624,6 +1764,13 @@
     "date": "2026-02-25"
   },
   {
+    "title": "10-K - CE (Celanese Corporation)",
+    "ticker": "CE",
+    "form": "10-K",
+    "link": "https://www.sec.gov/Archives/edgar/data/1306830/000130683026000031/ce-20251231.htm",
+    "date": "2026-02-24"
+  },
+  {
     "title": "10-K - CVX (Chevron Corp)",
     "ticker": "CVX",
     "form": "10-K",
@@ -1694,6 +1841,13 @@
     "date": "2026-02-23"
   },
   {
+    "title": "10-K - HIMS (Hims & Hers Health, Inc.)",
+    "ticker": "HIMS",
+    "form": "10-K",
+    "link": "https://www.sec.gov/Archives/edgar/data/1773751/000177375126000022/hims-20251231.htm",
+    "date": "2026-02-23"
+  },
+  {
     "title": "10-K - ABBV (AbbVie Inc.)",
     "ticker": "ABBV",
     "form": "10-K",
@@ -1729,6 +1883,13 @@
     "date": "2026-02-19"
   },
   {
+    "title": "10-K - FISV (Fiserv, Inc.)",
+    "ticker": "FISV",
+    "form": "10-K",
+    "link": "https://www.sec.gov/Archives/edgar/data/798354/000079835426000009/fi-20251231.htm",
+    "date": "2026-02-19"
+  },
+  {
     "title": "10-K - MET (MetLife, Inc.)",
     "ticker": "MET",
     "form": "10-K",
@@ -1757,6 +1918,13 @@
     "date": "2026-02-18"
   },
   {
+    "title": "10-K - OXY (Occidental Petroleum Corporation)",
+    "ticker": "OXY",
+    "form": "10-K",
+    "link": "https://www.sec.gov/Archives/edgar/data/797468/000162828026009059/oxy-20251231.htm",
+    "date": "2026-02-18"
+  },
+  {
     "title": "10-K - XOM (Exxon Mobil Corp)",
     "ticker": "XOM",
     "form": "10-K",
@@ -1782,6 +1950,13 @@
     "ticker": "HON",
     "form": "10-K",
     "link": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000013/hon-20251231.htm",
+    "date": "2026-02-17"
+  },
+  {
+    "title": "10-K - SOFI (SoFi Technologies, Inc.)",
+    "ticker": "SOFI",
+    "form": "10-K",
+    "link": "https://www.sec.gov/Archives/edgar/data/1818874/000181887426000013/sofi-20251231.htm",
     "date": "2026-02-17"
   },
   {
@@ -1845,6 +2020,13 @@
     "ticker": "CSX",
     "form": "10-K",
     "link": "https://www.sec.gov/Archives/edgar/data/277948/000027794826000006/csx-20251231.htm",
+    "date": "2026-02-12"
+  },
+  {
+    "title": "10-K - KHC (Kraft Heinz Company)",
+    "ticker": "KHC",
+    "form": "10-K",
+    "link": "https://www.sec.gov/Archives/edgar/data/1637459/000163745926000009/khc-20251227.htm",
     "date": "2026-02-12"
   },
   {
@@ -1957,6 +2139,13 @@
     "ticker": "GOOGL",
     "form": "10-K",
     "link": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+    "date": "2026-02-05"
+  },
+  {
+    "title": "10-K - SIRI (Sirius XM Holdings Inc.)",
+    "ticker": "SIRI",
+    "form": "10-K",
+    "link": "https://www.sec.gov/Archives/edgar/data/908937/000090893726000006/siri-20251231.htm",
     "date": "2026-02-05"
   },
   {
@@ -2261,10 +2450,31 @@
     "date": "2025-11-10"
   },
   {
+    "title": "10-Q - OXY (Occidental Petroleum Corporation)",
+    "ticker": "OXY",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/797468/000162828025051071/oxy-20250930.htm",
+    "date": "2025-11-10"
+  },
+  {
     "title": "10-Q - BKNG (Booking Holdings Inc.)",
     "ticker": "BKNG",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/1070750/000107075025000168/hst-20250930.htm",
+    "date": "2025-11-07"
+  },
+  {
+    "title": "10-Q - CE (Celanese Corporation)",
+    "ticker": "CE",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1306830/000130683025000225/ce-20250930.htm",
+    "date": "2025-11-07"
+  },
+  {
+    "title": "10-Q - CELH (Celsius Holdings, Inc.)",
+    "ticker": "CELH",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1341766/000134176625000144/celh-20250930.htm",
     "date": "2025-11-07"
   },
   {
@@ -2310,6 +2520,13 @@
     "date": "2025-11-06"
   },
   {
+    "title": "10-Q - DUOL (Duolingo, Inc.)",
+    "ticker": "DUOL",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1562088/000162828025049743/duol-20250930.htm",
+    "date": "2025-11-06"
+  },
+  {
     "title": "10-Q - DVN (Devon Energy Corp)",
     "ticker": "DVN",
     "form": "10-Q",
@@ -2328,6 +2545,13 @@
     "ticker": "INTC",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000179/intc-20250927.htm",
+    "date": "2025-11-06"
+  },
+  {
+    "title": "10-Q - SOFI (SoFi Technologies, Inc.)",
+    "ticker": "SOFI",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1818874/000181887425000210/sofi-20250930.htm",
     "date": "2025-11-06"
   },
   {
@@ -2443,6 +2667,13 @@
     "date": "2025-11-03"
   },
   {
+    "title": "10-Q - HIMS (Hims & Hers Health, Inc.)",
+    "ticker": "HIMS",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1773751/000177375125000354/hims-20250930.htm",
+    "date": "2025-11-03"
+  },
+  {
     "title": "10-Q - MS (Morgan Stanley)",
     "ticker": "MS",
     "form": "10-Q",
@@ -2555,6 +2786,13 @@
     "date": "2025-10-30"
   },
   {
+    "title": "10-Q - FISV (Fiserv, Inc.)",
+    "ticker": "FISV",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/798354/000079835425000171/fisv-20250930.htm",
+    "date": "2025-10-30"
+  },
+  {
     "title": "10-Q - GOOGL (Alphabet Inc.)",
     "ticker": "GOOGL",
     "form": "10-Q",
@@ -2590,6 +2828,13 @@
     "date": "2025-10-30"
   },
   {
+    "title": "10-Q - SIRI (Sirius XM Holdings Inc.)",
+    "ticker": "SIRI",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/908937/000090893725000030/siri-20250930.htm",
+    "date": "2025-10-30"
+  },
+  {
     "title": "10-Q - SO (Southern Co)",
     "ticker": "SO",
     "form": "10-Q",
@@ -2622,6 +2867,13 @@
     "ticker": "CVS",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/64803/000006480325000037/cvs-20250930.htm",
+    "date": "2025-10-29"
+  },
+  {
+    "title": "10-Q - KHC (Kraft Heinz Company)",
+    "ticker": "KHC",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1637459/000163745925000166/khc-20250927.htm",
     "date": "2025-10-29"
   },
   {
@@ -2947,6 +3199,13 @@
     "date": "2025-08-21"
   },
   {
+    "title": "10-Q - CE (Celanese Corporation)",
+    "ticker": "CE",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1306830/000130683025000174/ce-20250630.htm",
+    "date": "2025-08-11"
+  },
+  {
     "title": "10-Q - UNH (UnitedHealth Group Inc.)",
     "ticker": "UNH",
     "form": "10-Q",
@@ -2958,6 +3217,13 @@
     "ticker": "BAM",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/1937926/000193792625000025/bam-20250630.htm",
+    "date": "2025-08-08"
+  },
+  {
+    "title": "10-Q - CELH (Celsius Holdings, Inc.)",
+    "ticker": "CELH",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1341766/000134176625000104/celh-20250630.htm",
     "date": "2025-08-08"
   },
   {
@@ -2996,6 +3262,13 @@
     "date": "2025-08-07"
   },
   {
+    "title": "10-Q - DUOL (Duolingo, Inc.)",
+    "ticker": "DUOL",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1562088/000156208825000168/duol-20250630.htm",
+    "date": "2025-08-07"
+  },
+  {
     "title": "10-Q - EOG (EOG Resources, Inc.)",
     "ticker": "EOG",
     "form": "10-Q",
@@ -3021,6 +3294,13 @@
     "ticker": "MET",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/1099219/000109921925000193/met-20250630.htm",
+    "date": "2025-08-07"
+  },
+  {
+    "title": "10-Q - SOFI (SoFi Technologies, Inc.)",
+    "ticker": "SOFI",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1818874/000181887425000180/sofi-20250630.htm",
     "date": "2025-08-07"
   },
   {
@@ -3087,6 +3367,13 @@
     "date": "2025-08-06"
   },
   {
+    "title": "10-Q - OXY (Occidental Petroleum Corporation)",
+    "ticker": "OXY",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/797468/000079746825000111/oxy-20250630.htm",
+    "date": "2025-08-06"
+  },
+  {
     "title": "10-Q - UPS (United Parcel Service, Inc.)",
     "ticker": "UPS",
     "form": "10-Q",
@@ -3119,6 +3406,13 @@
     "ticker": "BRK-B",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025101578/brka-20250630.htm",
+    "date": "2025-08-04"
+  },
+  {
+    "title": "10-Q - HIMS (Hims & Hers Health, Inc.)",
+    "ticker": "HIMS",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1773751/000177375125000250/hims-20250630.htm",
     "date": "2025-08-04"
   },
   {
@@ -3241,6 +3535,13 @@
     "date": "2025-07-31"
   },
   {
+    "title": "10-Q - SIRI (Sirius XM Holdings Inc.)",
+    "ticker": "SIRI",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/908937/000090893725000023/siri-20250630.htm",
+    "date": "2025-07-31"
+  },
+  {
     "title": "10-Q - SO (Southern Co)",
     "ticker": "SO",
     "form": "10-Q",
@@ -3252,6 +3553,13 @@
     "ticker": "ABT",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/1800/000162828025036720/abt-20250630.htm",
+    "date": "2025-07-30"
+  },
+  {
+    "title": "10-Q - KHC (Kraft Heinz Company)",
+    "ticker": "KHC",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1637459/000163745925000152/khc-20250628.htm",
     "date": "2025-07-30"
   },
   {
@@ -3351,6 +3659,13 @@
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/732712/000073271225000086/vz-20250630.htm",
     "date": "2025-07-25"
+  },
+  {
+    "title": "10-Q - FISV (Fiserv, Inc.)",
+    "ticker": "FISV",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/798354/000079835425000163/fisv-20250630.htm",
+    "date": "2025-07-24"
   },
   {
     "title": "10-Q - GOOGL (Alphabet Inc.)",
@@ -3724,6 +4039,13 @@
     "date": "2025-05-07"
   },
   {
+    "title": "10-Q - OXY (Occidental Petroleum Corporation)",
+    "ticker": "OXY",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/797468/000079746825000076/oxy-20250331.htm",
+    "date": "2025-05-07"
+  },
+  {
     "title": "10-Q - UNH (UnitedHealth Group Inc.)",
     "ticker": "UNH",
     "form": "10-Q",
@@ -3738,10 +4060,38 @@
     "date": "2025-05-07"
   },
   {
+    "title": "10-Q - CE (Celanese Corporation)",
+    "ticker": "CE",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1306830/000130683025000105/ce-20250331.htm",
+    "date": "2025-05-06"
+  },
+  {
+    "title": "10-Q - CELH (Celsius Holdings, Inc.)",
+    "ticker": "CELH",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1341766/000134176625000080/celh-20250331.htm",
+    "date": "2025-05-06"
+  },
+  {
+    "title": "10-Q - SOFI (SoFi Technologies, Inc.)",
+    "ticker": "SOFI",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1818874/000181887425000072/sofi-20250331.htm",
+    "date": "2025-05-06"
+  },
+  {
     "title": "10-Q - BRK-B (Berkshire Hathaway Inc.)",
     "ticker": "BRK-B",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025063112/brka-20250331.htm",
+    "date": "2025-05-05"
+  },
+  {
+    "title": "10-Q - HIMS (Hims & Hers Health, Inc.)",
+    "ticker": "HIMS",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1773751/000177375125000154/hims-20250331.htm",
     "date": "2025-05-05"
   },
   {
@@ -3815,6 +4165,13 @@
     "date": "2025-05-02"
   },
   {
+    "title": "10-Q - DUOL (Duolingo, Inc.)",
+    "ticker": "DUOL",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1562088/000156208825000100/duol-20250331.htm",
+    "date": "2025-05-02"
+  },
+  {
     "title": "10-Q - MRK (Merck & Co., Inc.)",
     "ticker": "MRK",
     "form": "10-Q",
@@ -3885,6 +4242,13 @@
     "date": "2025-05-01"
   },
   {
+    "title": "10-Q - SIRI (Sirius XM Holdings Inc.)",
+    "ticker": "SIRI",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/908937/000090893725000010/siri-20250331.htm",
+    "date": "2025-05-01"
+  },
+  {
     "title": "10-Q - SO (Southern Co)",
     "ticker": "SO",
     "form": "10-Q",
@@ -3931,6 +4295,13 @@
     "ticker": "HON",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/773840/000077384025000037/hon-20250331.htm",
+    "date": "2025-04-29"
+  },
+  {
+    "title": "10-Q - KHC (Kraft Heinz Company)",
+    "ticker": "KHC",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1637459/000163745925000061/khc-20250329.htm",
     "date": "2025-04-29"
   },
   {
@@ -3994,6 +4365,13 @@
     "ticker": "CL",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/21665/000002166525000020/cl-20250331.htm",
+    "date": "2025-04-25"
+  },
+  {
+    "title": "10-Q - FISV (Fiserv, Inc.)",
+    "ticker": "FISV",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/798354/000079835425000104/fisv-20250331.htm",
     "date": "2025-04-25"
   },
   {
@@ -4256,11 +4634,25 @@
     "date": "2025-03-05"
   },
   {
+    "title": "10-K - CELH (Celsius Holdings, Inc.)",
+    "ticker": "CELH",
+    "form": "10-K",
+    "link": "https://www.sec.gov/Archives/edgar/data/1341766/000134176625000024/celh-20241231.htm",
+    "date": "2025-03-03"
+  },
+  {
     "title": "10-K - PGR (Progressive Corp)",
     "ticker": "PGR",
     "form": "10-K",
     "link": "https://www.sec.gov/Archives/edgar/data/80661/000008066125000007/pgr-20241231.htm",
     "date": "2025-03-03"
+  },
+  {
+    "title": "10-K - DUOL (Duolingo, Inc.)",
+    "ticker": "DUOL",
+    "form": "10-K",
+    "link": "https://www.sec.gov/Archives/edgar/data/1562088/000156208825000042/duol-20241231.htm",
+    "date": "2025-02-28"
   },
   {
     "title": "10-K - GILD (Gilead Sciences, Inc.)",
@@ -4424,10 +4816,31 @@
     "date": "2025-02-24"
   },
   {
+    "title": "10-K - HIMS (Hims & Hers Health, Inc.)",
+    "ticker": "HIMS",
+    "form": "10-K",
+    "link": "https://www.sec.gov/Archives/edgar/data/1773751/000177375125000062/hims-20241231.htm",
+    "date": "2025-02-24"
+  },
+  {
+    "title": "10-K - SOFI (SoFi Technologies, Inc.)",
+    "ticker": "SOFI",
+    "form": "10-K",
+    "link": "https://www.sec.gov/Archives/edgar/data/1818874/000181887425000016/sofi-20241231.htm",
+    "date": "2025-02-24"
+  },
+  {
     "title": "10-K - ABT (Abbott Laboratories)",
     "ticker": "ABT",
     "form": "10-K",
     "link": "https://www.sec.gov/Archives/edgar/data/1800/000162828025007110/abt-20241231.htm",
+    "date": "2025-02-21"
+  },
+  {
+    "title": "10-K - CE (Celanese Corporation)",
+    "ticker": "CE",
+    "form": "10-K",
+    "link": "https://www.sec.gov/Archives/edgar/data/1306830/000130683025000027/ce-20241231.htm",
     "date": "2025-02-21"
   },
   {
@@ -4456,6 +4869,13 @@
     "ticker": "DHR",
     "form": "10-K",
     "link": "https://www.sec.gov/Archives/edgar/data/313616/000031361625000043/dhr-20241231.htm",
+    "date": "2025-02-20"
+  },
+  {
+    "title": "10-K - FISV (Fiserv, Inc.)",
+    "ticker": "FISV",
+    "form": "10-K",
+    "link": "https://www.sec.gov/Archives/edgar/data/798354/000079835425000047/fi-20241231.htm",
     "date": "2025-02-20"
   },
   {
@@ -4512,6 +4932,13 @@
     "ticker": "CSCO",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/858877/000085887725000007/csco-20250125.htm",
+    "date": "2025-02-18"
+  },
+  {
+    "title": "10-K - OXY (Occidental Petroleum Corporation)",
+    "ticker": "OXY",
+    "form": "10-K",
+    "link": "https://www.sec.gov/Archives/edgar/data/797468/000079746825000029/oxy-20241231.htm",
     "date": "2025-02-18"
   },
   {
@@ -4589,6 +5016,13 @@
     "ticker": "JNJ",
     "form": "10-K",
     "link": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000038/jnj-20241229.htm",
+    "date": "2025-02-13"
+  },
+  {
+    "title": "10-K - KHC (Kraft Heinz Company)",
+    "ticker": "KHC",
+    "form": "10-K",
+    "link": "https://www.sec.gov/Archives/edgar/data/1637459/000163745925000011/khc-20241228.htm",
     "date": "2025-02-13"
   },
   {
@@ -4795,6 +5229,13 @@
     "date": "2025-01-30"
   },
   {
+    "title": "10-K - SIRI (Sirius XM Holdings Inc.)",
+    "ticker": "SIRI",
+    "form": "10-K",
+    "link": "https://www.sec.gov/Archives/edgar/data/908937/000090893725000005/siri-20241231.htm",
+    "date": "2025-01-30"
+  },
+  {
     "title": "10-K - TSLA (Tesla, Inc.)",
     "ticker": "TSLA",
     "form": "10-K",
@@ -4991,10 +5432,24 @@
     "date": "2024-11-13"
   },
   {
+    "title": "10-Q - CE (Celanese Corporation)",
+    "ticker": "CE",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1306830/000130683024000184/ce-20240930.htm",
+    "date": "2024-11-12"
+  },
+  {
     "title": "10-Q - GILD (Gilead Sciences, Inc.)",
     "ticker": "GILD",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/882095/000088209524000028/gild-20240930.htm",
+    "date": "2024-11-12"
+  },
+  {
+    "title": "10-Q - OXY (Occidental Petroleum Corporation)",
+    "ticker": "OXY",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/797468/000079746824000164/oxy-20240930.htm",
     "date": "2024-11-12"
   },
   {
@@ -5040,6 +5495,13 @@
     "date": "2024-11-07"
   },
   {
+    "title": "10-Q - DUOL (Duolingo, Inc.)",
+    "ticker": "DUOL",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1562088/000156208824000250/duol-20240930.htm",
+    "date": "2024-11-07"
+  },
+  {
     "title": "10-Q - EOG (EOG Resources, Inc.)",
     "ticker": "EOG",
     "form": "10-Q",
@@ -5054,6 +5516,13 @@
     "date": "2024-11-07"
   },
   {
+    "title": "10-Q - SOFI (SoFi Technologies, Inc.)",
+    "ticker": "SOFI",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1818874/000181887424000233/sofi-20240930.htm",
+    "date": "2024-11-07"
+  },
+  {
     "title": "10-Q - VITL (Vital Farms, Inc.)",
     "ticker": "VITL",
     "form": "10-Q",
@@ -5065,6 +5534,13 @@
     "ticker": "CAT",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/18230/000001823024000053/cat-20240930.htm",
+    "date": "2024-11-06"
+  },
+  {
+    "title": "10-Q - CELH (Celsius Holdings, Inc.)",
+    "ticker": "CELH",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1341766/000134176624000093/celh-20240930.htm",
     "date": "2024-11-06"
   },
   {
@@ -5114,6 +5590,13 @@
     "ticker": "BRK-B",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/1067983/000095017024120241/brka-20240930.htm",
+    "date": "2024-11-04"
+  },
+  {
+    "title": "10-Q - HIMS (Hims & Hers Health, Inc.)",
+    "ticker": "HIMS",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1773751/000177375124000339/hims-20240930.htm",
     "date": "2024-11-04"
   },
   {
@@ -5257,6 +5740,13 @@
     "date": "2024-10-31"
   },
   {
+    "title": "10-Q - SIRI (Sirius XM Holdings Inc.)",
+    "ticker": "SIRI",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/908937/000090893724000028/siri-20240930.htm",
+    "date": "2024-10-31"
+  },
+  {
     "title": "10-Q - SO (Southern Co)",
     "ticker": "SO",
     "form": "10-Q",
@@ -5289,6 +5779,13 @@
     "ticker": "IBM",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/51143/000005114324000049/ibm-20240930.htm",
+    "date": "2024-10-30"
+  },
+  {
+    "title": "10-Q - KHC (Kraft Heinz Company)",
+    "ticker": "KHC",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1637459/000163745924000144/khc-20240928.htm",
     "date": "2024-10-30"
   },
   {
@@ -5401,6 +5898,13 @@
     "ticker": "BA",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/12927/000001292724000082/ba-20240930.htm",
+    "date": "2024-10-23"
+  },
+  {
+    "title": "10-Q - FISV (Fiserv, Inc.)",
+    "ticker": "FISV",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/798354/000079835424000190/fisv-20240930.htm",
     "date": "2024-10-23"
   },
   {
@@ -5642,6 +6146,13 @@
     "date": "2024-08-09"
   },
   {
+    "title": "10-Q - DUOL (Duolingo, Inc.)",
+    "ticker": "DUOL",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1562088/000156208824000207/duol-20240630.htm",
+    "date": "2024-08-08"
+  },
+  {
     "title": "10-Q - GILD (Gilead Sciences, Inc.)",
     "ticker": "GILD",
     "form": "10-Q",
@@ -5740,6 +6251,13 @@
     "date": "2024-08-07"
   },
   {
+    "title": "10-Q - OXY (Occidental Petroleum Corporation)",
+    "ticker": "OXY",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/797468/000079746824000136/oxy-20240630.htm",
+    "date": "2024-08-07"
+  },
+  {
     "title": "10-Q - UPS (United Parcel Service, Inc.)",
     "ticker": "UPS",
     "form": "10-Q",
@@ -5751,6 +6269,20 @@
     "ticker": "BLK",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/1364742/000095017024091706/blk-20240630.htm",
+    "date": "2024-08-06"
+  },
+  {
+    "title": "10-Q - CELH (Celsius Holdings, Inc.)",
+    "ticker": "CELH",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1341766/000134176624000057/celh-20240630.htm",
+    "date": "2024-08-06"
+  },
+  {
+    "title": "10-Q - SOFI (SoFi Technologies, Inc.)",
+    "ticker": "SOFI",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1818874/000181887424000175/sofi-20240630.htm",
     "date": "2024-08-06"
   },
   {
@@ -5772,6 +6304,13 @@
     "ticker": "CSX",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/277948/000027794824000047/csx-20240630.htm",
+    "date": "2024-08-05"
+  },
+  {
+    "title": "10-Q - HIMS (Hims & Hers Health, Inc.)",
+    "ticker": "HIMS",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1773751/000177375124000248/hims-20240630.htm",
     "date": "2024-08-05"
   },
   {
@@ -5838,6 +6377,13 @@
     "date": "2024-08-02"
   },
   {
+    "title": "10-Q - CE (Celanese Corporation)",
+    "ticker": "CE",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1306830/000130683024000155/ce-20240630.htm",
+    "date": "2024-08-02"
+  },
+  {
     "title": "10-Q - INTC (Intel Corp)",
     "ticker": "INTC",
     "form": "10-Q",
@@ -5894,6 +6440,13 @@
     "date": "2024-08-01"
   },
   {
+    "title": "10-Q - SIRI (Sirius XM Holdings Inc.)",
+    "ticker": "SIRI",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/908937/000090893724000021/siri-20240630.htm",
+    "date": "2024-08-01"
+  },
+  {
     "title": "10-Q - SO (Southern Co)",
     "ticker": "SO",
     "form": "10-Q",
@@ -5919,6 +6472,13 @@
     "ticker": "BA",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/12927/000001292724000055/ba-20240630.htm",
+    "date": "2024-07-31"
+  },
+  {
+    "title": "10-Q - KHC (Kraft Heinz Company)",
+    "ticker": "KHC",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1637459/000163745924000129/khc-20240629.htm",
     "date": "2024-07-31"
   },
   {
@@ -6039,6 +6599,13 @@
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/1045609/000095017024086882/pld-20240630.htm",
     "date": "2024-07-26"
+  },
+  {
+    "title": "10-Q - FISV (Fiserv, Inc.)",
+    "ticker": "FISV",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/798354/000079835424000156/fisv-20240630.htm",
+    "date": "2024-07-25"
   },
   {
     "title": "10-Q - HON (Honeywell International Inc.)",
@@ -6300,11 +6867,25 @@
     "date": "2024-05-21"
   },
   {
+    "title": "10-Q - CE (Celanese Corporation)",
+    "ticker": "CE",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1306830/000130683024000098/ce-20240331.htm",
+    "date": "2024-05-10"
+  },
+  {
     "title": "10-Q - SOLV (Solventum Corp)",
     "ticker": "SOLV",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/1964738/000196473824000013/solv-20240331.htm",
     "date": "2024-05-10"
+  },
+  {
+    "title": "10-Q - DUOL (Duolingo, Inc.)",
+    "ticker": "DUOL",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1562088/000156208824000113/duol-20240331.htm",
+    "date": "2024-05-09"
   },
   {
     "title": "10-Q - SCHW (Charles Schwab Corp)",
@@ -6370,6 +6951,13 @@
     "date": "2024-05-07"
   },
   {
+    "title": "10-Q - CELH (Celsius Holdings, Inc.)",
+    "ticker": "CELH",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1341766/000134176624000029/celh-20240331.htm",
+    "date": "2024-05-07"
+  },
+  {
     "title": "10-Q - DIS (Walt Disney Co)",
     "ticker": "DIS",
     "form": "10-Q",
@@ -6377,10 +6965,31 @@
     "date": "2024-05-07"
   },
   {
+    "title": "10-Q - OXY (Occidental Petroleum Corporation)",
+    "ticker": "OXY",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/797468/000079746824000095/oxy-20240331.htm",
+    "date": "2024-05-07"
+  },
+  {
+    "title": "10-Q - SOFI (SoFi Technologies, Inc.)",
+    "ticker": "SOFI",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1818874/000181887424000121/sofi-20240331.htm",
+    "date": "2024-05-07"
+  },
+  {
     "title": "10-Q - BRK-B (Berkshire Hathaway Inc.)",
     "ticker": "BRK-B",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/1067983/000095017024053185/brka-20240331.htm",
+    "date": "2024-05-06"
+  },
+  {
+    "title": "10-Q - HIMS (Hims & Hers Health, Inc.)",
+    "ticker": "HIMS",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1773751/000177375124000132/hims-20240331.htm",
     "date": "2024-05-06"
   },
   {
@@ -6566,6 +7175,13 @@
     "date": "2024-05-01"
   },
   {
+    "title": "10-Q - KHC (Kraft Heinz Company)",
+    "ticker": "KHC",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1637459/000163745924000069/khc-20240330.htm",
+    "date": "2024-05-01"
+  },
+  {
     "title": "10-Q - MA (Mastercard Inc.)",
     "ticker": "MA",
     "form": "10-Q",
@@ -6626,6 +7242,13 @@
     "ticker": "SBUX",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000024/sbux-20240331.htm",
+    "date": "2024-04-30"
+  },
+  {
+    "title": "10-Q - SIRI (Sirius XM Holdings Inc.)",
+    "ticker": "SIRI",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/908937/000090893724000014/siri-20240331.htm",
     "date": "2024-04-30"
   },
   {
@@ -6745,6 +7368,13 @@
     "ticker": "BA",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/12927/000001292724000025/ba-20240331.htm",
+    "date": "2024-04-24"
+  },
+  {
+    "title": "10-Q - FISV (Fiserv, Inc.)",
+    "ticker": "FISV",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/798354/000079835424000100/fisv-20240331.htm",
     "date": "2024-04-24"
   },
   {
@@ -6930,6 +7560,13 @@
     "date": "2024-03-06"
   },
   {
+    "title": "10-K - CELH (Celsius Holdings, Inc.)",
+    "ticker": "CELH",
+    "form": "10-K",
+    "link": "https://www.sec.gov/Archives/edgar/data/1341766/000134176624000015/celh-20231231.htm",
+    "date": "2024-02-29"
+  },
+  {
     "title": "10-K - CI (The Cigna Group)",
     "ticker": "CI",
     "form": "10-K",
@@ -6941,6 +7578,13 @@
     "ticker": "DE",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/315189/000155837024002149/de-20240128x10q.htm",
+    "date": "2024-02-29"
+  },
+  {
+    "title": "10-K - DUOL (Duolingo, Inc.)",
+    "ticker": "DUOL",
+    "form": "10-K",
+    "link": "https://www.sec.gov/Archives/edgar/data/1562088/000156208824000050/duol-20231231.htm",
     "date": "2024-02-29"
   },
   {
@@ -7007,6 +7651,13 @@
     "date": "2024-02-27"
   },
   {
+    "title": "10-K - SOFI (SoFi Technologies, Inc.)",
+    "ticker": "SOFI",
+    "form": "10-K",
+    "link": "https://www.sec.gov/Archives/edgar/data/1818874/000181887424000026/sofi-20231231.htm",
+    "date": "2024-02-27"
+  },
+  {
     "title": "10-K - BRK-B (Berkshire Hathaway Inc.)",
     "ticker": "BRK-B",
     "form": "10-K",
@@ -7018,6 +7669,13 @@
     "ticker": "CVX",
     "form": "10-K",
     "link": "https://www.sec.gov/Archives/edgar/data/93410/000009341024000013/cvx-20231231.htm",
+    "date": "2024-02-26"
+  },
+  {
+    "title": "10-K - HIMS (Hims & Hers Health, Inc.)",
+    "ticker": "HIMS",
+    "form": "10-K",
+    "link": "https://www.sec.gov/Archives/edgar/data/1773751/000177375124000025/hims-20231231.htm",
     "date": "2024-02-26"
   },
   {
@@ -7056,6 +7714,13 @@
     "date": "2024-02-23"
   },
   {
+    "title": "10-K - CE (Celanese Corporation)",
+    "ticker": "CE",
+    "form": "10-K",
+    "link": "https://www.sec.gov/Archives/edgar/data/1306830/000130683024000029/ce-20231231.htm",
+    "date": "2024-02-23"
+  },
+  {
     "title": "10-K - GILD (Gilead Sciences, Inc.)",
     "ticker": "GILD",
     "form": "10-K",
@@ -7081,6 +7746,13 @@
     "ticker": "EOG",
     "form": "10-K",
     "link": "https://www.sec.gov/Archives/edgar/data/821189/000082118924000011/eog-20231231.htm",
+    "date": "2024-02-22"
+  },
+  {
+    "title": "10-K - FISV (Fiserv, Inc.)",
+    "ticker": "FISV",
+    "form": "10-K",
+    "link": "https://www.sec.gov/Archives/edgar/data/798354/000079835424000037/fi-20231231.htm",
     "date": "2024-02-22"
   },
   {
@@ -7224,6 +7896,13 @@
     "date": "2024-02-15"
   },
   {
+    "title": "10-K - KHC (Kraft Heinz Company)",
+    "ticker": "KHC",
+    "form": "10-K",
+    "link": "https://www.sec.gov/Archives/edgar/data/1637459/000163745924000018/khc-20231230.htm",
+    "date": "2024-02-15"
+  },
+  {
     "title": "10-K - SO (Southern Co)",
     "ticker": "SO",
     "form": "10-K",
@@ -7249,6 +7928,13 @@
     "ticker": "CSX",
     "form": "10-K",
     "link": "https://www.sec.gov/Archives/edgar/data/277948/000027794824000010/csx-20231231.htm",
+    "date": "2024-02-14"
+  },
+  {
+    "title": "10-K - OXY (Occidental Petroleum Corporation)",
+    "ticker": "OXY",
+    "form": "10-K",
+    "link": "https://www.sec.gov/Archives/edgar/data/797468/000079746824000034/oxy-20231231.htm",
     "date": "2024-02-14"
   },
   {
@@ -7397,6 +8083,13 @@
     "form": "10-K",
     "link": "https://www.sec.gov/Archives/edgar/data/97476/000009747624000007/txn-20231231.htm",
     "date": "2024-02-02"
+  },
+  {
+    "title": "10-K - SIRI (Sirius XM Holdings Inc.)",
+    "ticker": "SIRI",
+    "form": "10-K",
+    "link": "https://www.sec.gov/Archives/edgar/data/908937/000090893724000008/siri-20231231.htm",
+    "date": "2024-02-01"
   },
   {
     "title": "10-K - AMD (Advanced Micro Devices, Inc.)",
@@ -7651,6 +8344,20 @@
     "date": "2023-11-15"
   },
   {
+    "title": "10-Q - DUOL (Duolingo, Inc.)",
+    "ticker": "DUOL",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1562088/000156208823000221/duol-20230930.htm",
+    "date": "2023-11-09"
+  },
+  {
+    "title": "10-Q - CE (Celanese Corporation)",
+    "ticker": "CE",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1306830/000130683023000161/ce-20230930.htm",
+    "date": "2023-11-08"
+  },
+  {
     "title": "10-Q - DVN (Devon Energy Corp)",
     "ticker": "DVN",
     "form": "10-Q",
@@ -7679,6 +8386,20 @@
     "date": "2023-11-08"
   },
   {
+    "title": "10-Q - SOFI (SoFi Technologies, Inc.)",
+    "ticker": "SOFI",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1818874/000181887423000173/sofi-20230930.htm",
+    "date": "2023-11-08"
+  },
+  {
+    "title": "10-Q - CELH (Celsius Holdings, Inc.)",
+    "ticker": "CELH",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1341766/000134176623000035/celh-20230930.htm",
+    "date": "2023-11-07"
+  },
+  {
     "title": "10-Q - GILD (Gilead Sciences, Inc.)",
     "ticker": "GILD",
     "form": "10-Q",
@@ -7690,6 +8411,13 @@
     "ticker": "NEE",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/753308/000075330823000058/nee-20230930.htm",
+    "date": "2023-11-07"
+  },
+  {
+    "title": "10-Q - OXY (Occidental Petroleum Corporation)",
+    "ticker": "OXY",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/797468/000079746823000092/oxy-20230930.htm",
     "date": "2023-11-07"
   },
   {
@@ -7711,6 +8439,13 @@
     "ticker": "BRK-B",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/1067983/000095017023058993/brka-20230930.htm",
+    "date": "2023-11-06"
+  },
+  {
+    "title": "10-Q - HIMS (Hims & Hers Health, Inc.)",
+    "ticker": "HIMS",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1773751/000177375123000278/hims-20230930.htm",
     "date": "2023-11-06"
   },
   {
@@ -7882,6 +8617,13 @@
     "date": "2023-11-01"
   },
   {
+    "title": "10-Q - KHC (Kraft Heinz Company)",
+    "ticker": "KHC",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/1637459/000163745923000143/khc-20230930.htm",
+    "date": "2023-11-01"
+  },
+  {
     "title": "10-Q - MDLZ (Mondelez International, Inc.)",
     "ticker": "MDLZ",
     "form": "10-Q",
@@ -7921,6 +8663,13 @@
     "ticker": "PGR",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/80661/000008066123000049/pgr-20230930.htm",
+    "date": "2023-10-31"
+  },
+  {
+    "title": "10-Q - SIRI (Sirius XM Holdings Inc.)",
+    "ticker": "SIRI",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/908937/000090893723000027/siri-20230930.htm",
     "date": "2023-10-31"
   },
   {
@@ -8019,6 +8768,13 @@
     "ticker": "BA",
     "form": "10-Q",
     "link": "https://www.sec.gov/Archives/edgar/data/12927/000001292723000062/ba-20230930.htm",
+    "date": "2023-10-25"
+  },
+  {
+    "title": "10-Q - FISV (Fiserv, Inc.)",
+    "ticker": "FISV",
+    "form": "10-Q",
+    "link": "https://www.sec.gov/Archives/edgar/data/798354/000079835423000018/fisv-20230930.htm",
     "date": "2023-10-25"
   },
   {
