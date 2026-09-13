@@ -82,7 +82,7 @@
   { "ticker": "NYT", "cik": "0000071691", "name": "New York Times CO" },
   { "ticker": "ORCL", "cik": "0001341439", "name": "Oracle Corp" },
   { "ticker": "ODD", "cik": "0001907085", "name": "Oddity Tech Ltd" },
-  { "ticker": "OXY", "cik": "0000797468, "name": "Occidental Petroleum Corporation" },
+  { "ticker": "OXY", "cik": "0000797468", "name": "Occidental Petroleum Corporation" },
   { "ticker": "PEP", "cik": "0000077476", "name": "PepsiCo, Inc." },
   { "ticker": "PFE", "cik": "0000078003", "name": "Pfizer Inc." },
   { "ticker": "PG", "cik": "0000080424", "name": "Procter & Gamble Co" },
