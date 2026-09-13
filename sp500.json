@@ -37,6 +37,7 @@
   { "ticker": "DHR", "cik": "0000313616", "name": "Danaher Corp" },
   { "ticker": "DIS", "cik": "0001744489", "name": "Walt Disney Co" },
   { "ticker": "DUK", "cik": "0001545711", "name": "Duke Energy Corp" },
+  { "ticker": "DVN", "cik": "0001090012", "name": "Devon Energy Corp" },
   { "ticker": "EOG", "cik": "0000821189", "name": "EOG Resources, Inc." },
   { "ticker": "FIS", "cik": "0001134016", "name": "Fidelity National Information Services, Inc." },
   { "ticker": "GE", "cik": "0000040528", "name": "General Electric Co" },
